@@ -18,9 +18,9 @@ export default function Home() {
         </h1>
         <Link
           href="/admin"
-          className="inline-flex items-center justify-center px-8 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors"
+          className="inline-flex items-center justify-center px-10 py-4 bg-red-600 text-white text-lg font-semibold rounded-lg hover:bg-red-700 hover:scale-105 hover:shadow-xl transition-all duration-200 ease-in-out active:scale-95"
         >
-          Sign in with Azure Active Directory
+          Click To Login
         </Link>
       </main>
     </div>
