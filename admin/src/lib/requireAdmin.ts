@@ -16,6 +16,9 @@ export async function requireRole() {
   const allowRaw = await getJson<unknown>(ALLOWLIST_KEY);
   const allow = AllowListSchema.parse(allowRaw ?? { superAdmins: [], admins: [] });
 
+  // session.user is guaranteed to exist after requireSignedIn()
+  if (!session.user?.email) redirect("/api/auth/signin");
+  
   const role = roleForEmail(allow, session.user.email);
   if (role === "none") redirect("/unauthorized");
 
