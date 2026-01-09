@@ -1,0 +1,57 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Next.js
+admin/.next/
+admin/out/
+admin/build/
+admin/dist/
+
+# Environment variables (IMPORTANT: Contains API keys and secrets)
+admin/.env.local
+admin/.env*.local
+.env
+.env.local
+.env*.local
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# OS
+.DS_Store
+*.swp
+*.swo
+*~
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Testing
+coverage/
+.nyc_output/
+
+# Misc
+*.log
+.cache/
+.temp/
+.tmp/
+
+# Browser logs (cursor)
+.cursor/
+
+# Vercel
+.vercel

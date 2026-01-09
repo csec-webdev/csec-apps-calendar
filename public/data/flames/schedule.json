@@ -1,0 +1,3672 @@
+{
+  "2025-09-21": {
+    "id": 2025010003,
+    "date": "2025-09-21T07:00:00.000Z",
+    "isHome": true,
+    "opponent": {
+      "abbrev": "EDM",
+      "name": "Oilers",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/EDM_dark.svg"
+    },
+    "gameState": "FINAL",
+    "time": null,
+    "result": "L 0-3",
+    "flamesScore": 0,
+    "opponentScore": 3,
+    "periodType": "REG",
+    "tvNetworks": "",
+    "tvBroadcasts": [],
+    "venue": "Scotiabank Saddledome",
+    "ticketsLink": null
+  },
+  "2025-09-23": {
+    "id": 2025010027,
+    "date": "2025-09-23T07:00:00.000Z",
+    "isHome": true,
+    "opponent": {
+      "abbrev": "SEA",
+      "name": "Kraken",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/SEA_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/SEA_dark.svg"
+    },
+    "gameState": "FINAL",
+    "time": null,
+    "result": "W 4-1",
+    "flamesScore": 4,
+    "opponentScore": 1,
+    "periodType": "REG",
+    "tvNetworks": "KHN/Prime, KONG",
+    "tvBroadcasts": [
+      {
+        "id": 554,
+        "market": "A",
+        "countryCode": "US",
+        "network": "KHN/Prime",
+        "sequenceNumber": 348
+      },
+      {
+        "id": 388,
+        "market": "A",
+        "countryCode": "US",
+        "network": "KONG",
+        "sequenceNumber": 654
+      }
+    ],
+    "venue": "Scotiabank Saddledome",
+    "ticketsLink": null
+  },
+  "2025-09-24": {
+    "id": 2025010029,
+    "date": "2025-09-24T07:00:00.000Z",
+    "isHome": false,
+    "opponent": {
+      "abbrev": "VAN",
+      "name": "Canucks",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/VAN_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/VAN_dark.svg"
+    },
+    "gameState": "FINAL",
+    "time": null,
+    "result": "L 1-3",
+    "flamesScore": 1,
+    "opponentScore": 3,
+    "periodType": "REG",
+    "tvNetworks": "",
+    "tvBroadcasts": [],
+    "venue": "Abbotsford Entertainment Centre",
+    "ticketsLink": null
+  },
+  "2025-09-27": {
+    "id": 2025010049,
+    "date": "2025-09-27T07:00:00.000Z",
+    "isHome": false,
+    "opponent": {
+      "abbrev": "WPG",
+      "name": "Jets",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/WPG_dark.svg"
+    },
+    "gameState": "FINAL",
+    "time": null,
+    "result": "L 2-4",
+    "flamesScore": 2,
+    "opponentScore": 4,
+    "periodType": "REG",
+    "tvNetworks": "",
+    "tvBroadcasts": [],
+    "venue": "Canada Life Centre",
+    "ticketsLink": null
+  },
+  "2025-09-29": {
+    "id": 2025010060,
+    "date": "2025-09-29T07:00:00.000Z",
+    "isHome": false,
+    "opponent": {
+      "abbrev": "SEA",
+      "name": "Kraken",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/SEA_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/SEA_dark.svg"
+    },
+    "gameState": "FINAL",
+    "time": null,
+    "result": "W 2-1",
+    "flamesScore": 2,
+    "opponentScore": 1,
+    "periodType": "SO",
+    "tvNetworks": "NHLN, KHN/Prime, KONG",
+    "tvBroadcasts": [
+      {
+        "id": 324,
+        "market": "N",
+        "countryCode": "US",
+        "network": "NHLN",
+        "sequenceNumber": 35
+      },
+      {
+        "id": 554,
+        "market": "H",
+        "countryCode": "US",
+        "network": "KHN/Prime",
+        "sequenceNumber": 348
+      },
+      {
+        "id": 388,
+        "market": "H",
+        "countryCode": "US",
+        "network": "KONG",
+        "sequenceNumber": 654
+      }
+    ],
+    "venue": "Climate Pledge Arena",
+    "ticketsLink": null
+  },
+  "2025-10-01": {
+    "id": 2025010077,
+    "date": "2025-10-01T07:00:00.000Z",
+    "isHome": true,
+    "opponent": {
+      "abbrev": "VAN",
+      "name": "Canucks",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/VAN_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/VAN_dark.svg"
+    },
+    "gameState": "FINAL",
+    "time": null,
+    "result": "L 1-8",
+    "flamesScore": 1,
+    "opponentScore": 8,
+    "periodType": "REG",
+    "tvNetworks": "SN360",
+    "tvBroadcasts": [
+      {
+        "id": 283,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SN360",
+        "sequenceNumber": 103
+      }
+    ],
+    "venue": "Scotiabank Saddledome",
+    "ticketsLink": null
+  },
+  "2025-10-03": {
+    "id": 2025010089,
+    "date": "2025-10-03T07:00:00.000Z",
+    "isHome": true,
+    "opponent": {
+      "abbrev": "WPG",
+      "name": "Jets",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/WPG_dark.svg"
+    },
+    "gameState": "FINAL",
+    "time": null,
+    "result": "SOL 4-5",
+    "flamesScore": 4,
+    "opponentScore": 5,
+    "periodType": "SO",
+    "tvNetworks": "TSN3",
+    "tvBroadcasts": [
+      {
+        "id": 292,
+        "market": "A",
+        "countryCode": "CA",
+        "network": "TSN3",
+        "sequenceNumber": 134
+      }
+    ],
+    "venue": "Scotiabank Saddledome",
+    "ticketsLink": null
+  },
+  "2025-10-08": {
+    "id": 2025020006,
+    "date": "2025-10-08T07:00:00.000Z",
+    "isHome": false,
+    "opponent": {
+      "abbrev": "EDM",
+      "name": "Oilers",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/EDM_dark.svg"
+    },
+    "gameState": "OFF",
+    "time": null,
+    "result": "W 4-3",
+    "flamesScore": 4,
+    "opponentScore": 3,
+    "periodType": "SO",
+    "tvNetworks": "SN1, TVAS",
+    "tvBroadcasts": [
+      {
+        "id": 284,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SN1",
+        "sequenceNumber": 102
+      },
+      {
+        "id": 281,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "TVAS",
+        "sequenceNumber": 109
+      }
+    ],
+    "venue": "Rogers Place",
+    "ticketsLink": null
+  },
+  "2025-10-09": {
+    "id": 2025020019,
+    "date": "2025-10-09T07:00:00.000Z",
+    "isHome": false,
+    "opponent": {
+      "abbrev": "VAN",
+      "name": "Canucks",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/VAN_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/VAN_dark.svg"
+    },
+    "gameState": "OFF",
+    "time": null,
+    "result": "L 1-5",
+    "flamesScore": 1,
+    "opponentScore": 5,
+    "periodType": "REG",
+    "tvNetworks": "SNP, SNW, TVAS",
+    "tvBroadcasts": [
+      {
+        "id": 290,
+        "market": "H",
+        "countryCode": "CA",
+        "network": "SNP",
+        "sequenceNumber": 33
+      },
+      {
+        "id": 289,
+        "market": "A",
+        "countryCode": "CA",
+        "network": "SNW",
+        "sequenceNumber": 34
+      },
+      {
+        "id": 281,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "TVAS",
+        "sequenceNumber": 109
+      }
+    ],
+    "venue": "Rogers Arena",
+    "ticketsLink": null
+  },
+  "2025-10-11": {
+    "id": 2025020023,
+    "date": "2025-10-11T07:00:00.000Z",
+    "isHome": true,
+    "opponent": {
+      "abbrev": "STL",
+      "name": "Blues",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/STL_light.svg?season=20252026",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/STL_dark.svg?season=20252026"
+    },
+    "gameState": "OFF",
+    "time": null,
+    "result": "L 2-4",
+    "flamesScore": 2,
+    "opponentScore": 4,
+    "periodType": "REG",
+    "tvNetworks": "SN, FDSNMW",
+    "tvBroadcasts": [
+      {
+        "id": 282,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SN",
+        "sequenceNumber": 101
+      },
+      {
+        "id": 566,
+        "market": "A",
+        "countryCode": "US",
+        "network": "FDSNMW",
+        "sequenceNumber": 201
+      }
+    ],
+    "venue": "Scotiabank Saddledome",
+    "ticketsLink": null
+  },
+  "2025-10-14": {
+    "id": 2025020053,
+    "date": "2025-10-14T07:00:00.000Z",
+    "isHome": true,
+    "opponent": {
+      "abbrev": "VGK",
+      "name": "Golden Knights",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/VGK_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/VGK_dark.svg"
+    },
+    "gameState": "OFF",
+    "time": null,
+    "result": "L 2-4",
+    "flamesScore": 2,
+    "opponentScore": 4,
+    "periodType": "REG",
+    "tvNetworks": "SN1, SCRIPPS",
+    "tvBroadcasts": [
+      {
+        "id": 284,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SN1",
+        "sequenceNumber": 102
+      },
+      {
+        "id": 521,
+        "market": "A",
+        "countryCode": "US",
+        "network": "SCRIPPS",
+        "sequenceNumber": 657
+      }
+    ],
+    "venue": "Scotiabank Saddledome",
+    "ticketsLink": null
+  },
+  "2025-10-15": {
+    "id": 2025020060,
+    "date": "2025-10-15T07:00:00.000Z",
+    "isHome": false,
+    "opponent": {
+      "abbrev": "UTA",
+      "name": "Mammoth",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/UTA_light.svg?season=20252026",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/UTA_dark.svg?season=20252026"
+    },
+    "gameState": "OFF",
+    "time": null,
+    "result": "L 1-3",
+    "flamesScore": 1,
+    "opponentScore": 3,
+    "periodType": "REG",
+    "tvNetworks": "SN360, Utah16",
+    "tvBroadcasts": [
+      {
+        "id": 283,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SN360",
+        "sequenceNumber": 103
+      },
+      {
+        "id": 558,
+        "market": "H",
+        "countryCode": "US",
+        "network": "Utah16",
+        "sequenceNumber": 381
+      }
+    ],
+    "venue": "Delta Center",
+    "ticketsLink": null
+  },
+  "2025-10-18": {
+    "id": 2025020087,
+    "date": "2025-10-18T07:00:00.000Z",
+    "isHome": false,
+    "opponent": {
+      "abbrev": "VGK",
+      "name": "Golden Knights",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/VGK_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/VGK_dark.svg"
+    },
+    "gameState": "OFF",
+    "time": null,
+    "result": "L 1-6",
+    "flamesScore": 1,
+    "opponentScore": 6,
+    "periodType": "REG",
+    "tvNetworks": "CBC, CITY, SN, SN360, SCRIPPS",
+    "tvBroadcasts": [
+      {
+        "id": 4,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "CBC",
+        "sequenceNumber": 25
+      },
+      {
+        "id": 286,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "CITY",
+        "sequenceNumber": 26
+      },
+      {
+        "id": 282,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SN",
+        "sequenceNumber": 101
+      },
+      {
+        "id": 283,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SN360",
+        "sequenceNumber": 103
+      },
+      {
+        "id": 521,
+        "market": "H",
+        "countryCode": "US",
+        "network": "SCRIPPS",
+        "sequenceNumber": 657
+      }
+    ],
+    "venue": "T-Mobile Arena",
+    "ticketsLink": null
+  },
+  "2025-10-20": {
+    "id": 2025020096,
+    "date": "2025-10-20T07:00:00.000Z",
+    "isHome": true,
+    "opponent": {
+      "abbrev": "WPG",
+      "name": "Jets",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/WPG_dark.svg"
+    },
+    "gameState": "OFF",
+    "time": null,
+    "result": "L 1-2",
+    "flamesScore": 1,
+    "opponentScore": 2,
+    "periodType": "REG",
+    "tvNetworks": "SNF, TSN3",
+    "tvBroadcasts": [
+      {
+        "id": 295,
+        "market": "H",
+        "countryCode": "CA",
+        "network": "SNF",
+        "sequenceNumber": 94
+      },
+      {
+        "id": 292,
+        "market": "A",
+        "countryCode": "CA",
+        "network": "TSN3",
+        "sequenceNumber": 134
+      }
+    ],
+    "venue": "Scotiabank Saddledome",
+    "ticketsLink": null
+  },
+  "2025-10-22": {
+    "id": 2025020110,
+    "date": "2025-10-22T07:00:00.000Z",
+    "isHome": true,
+    "opponent": {
+      "abbrev": "MTL",
+      "name": "Canadiens",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/MTL_dark.svg"
+    },
+    "gameState": "OFF",
+    "time": null,
+    "result": "OTL 1-2",
+    "flamesScore": 1,
+    "opponentScore": 2,
+    "periodType": "OT",
+    "tvNetworks": "SN, RDS",
+    "tvBroadcasts": [
+      {
+        "id": 282,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SN",
+        "sequenceNumber": 101
+      },
+      {
+        "id": 33,
+        "market": "A",
+        "countryCode": "CA",
+        "network": "RDS",
+        "sequenceNumber": 132
+      }
+    ],
+    "venue": "Scotiabank Saddledome",
+    "ticketsLink": null
+  },
+  "2025-10-24": {
+    "id": 2025020126,
+    "date": "2025-10-24T07:00:00.000Z",
+    "isHome": false,
+    "opponent": {
+      "abbrev": "WPG",
+      "name": "Jets",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/WPG_dark.svg"
+    },
+    "gameState": "OFF",
+    "time": null,
+    "result": "L 3-5",
+    "flamesScore": 3,
+    "opponentScore": 5,
+    "periodType": "REG",
+    "tvNetworks": "SNF, TSN3",
+    "tvBroadcasts": [
+      {
+        "id": 295,
+        "market": "A",
+        "countryCode": "CA",
+        "network": "SNF",
+        "sequenceNumber": 94
+      },
+      {
+        "id": 292,
+        "market": "H",
+        "countryCode": "CA",
+        "network": "TSN3",
+        "sequenceNumber": 134
+      }
+    ],
+    "venue": "Canada Life Centre",
+    "ticketsLink": null
+  },
+  "2025-10-26": {
+    "id": 2025020146,
+    "date": "2025-10-26T07:00:00.000Z",
+    "isHome": true,
+    "opponent": {
+      "abbrev": "NYR",
+      "name": "Rangers",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/NYR_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NYR_dark.svg"
+    },
+    "gameState": "OFF",
+    "time": null,
+    "result": "W 5-1",
+    "flamesScore": 5,
+    "opponentScore": 1,
+    "periodType": "REG",
+    "tvNetworks": "SNW, TVAS, MSGSN",
+    "tvBroadcasts": [
+      {
+        "id": 289,
+        "market": "H",
+        "countryCode": "CA",
+        "network": "SNW",
+        "sequenceNumber": 34
+      },
+      {
+        "id": 281,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "TVAS",
+        "sequenceNumber": 109
+      },
+      {
+        "id": 409,
+        "market": "A",
+        "countryCode": "US",
+        "network": "MSGSN",
+        "sequenceNumber": 411
+      }
+    ],
+    "venue": "Scotiabank Saddledome",
+    "ticketsLink": null
+  },
+  "2025-10-28": {
+    "id": 2025020151,
+    "date": "2025-10-28T07:00:00.000Z",
+    "isHome": false,
+    "opponent": {
+      "abbrev": "TOR",
+      "name": "Maple Leafs",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/TOR_dark.svg"
+    },
+    "gameState": "OFF",
+    "time": null,
+    "result": "L 3-4",
+    "flamesScore": 3,
+    "opponentScore": 4,
+    "periodType": "REG",
+    "tvNetworks": "SNF, TSN4",
+    "tvBroadcasts": [
+      {
+        "id": 295,
+        "market": "A",
+        "countryCode": "CA",
+        "network": "SNF",
+        "sequenceNumber": 94
+      },
+      {
+        "id": 293,
+        "market": "H",
+        "countryCode": "CA",
+        "network": "TSN4",
+        "sequenceNumber": 137
+      }
+    ],
+    "venue": "Scotiabank Arena",
+    "ticketsLink": null
+  },
+  "2025-10-30": {
+    "id": 2025020168,
+    "date": "2025-10-30T07:00:00.000Z",
+    "isHome": false,
+    "opponent": {
+      "abbrev": "OTT",
+      "name": "Senators",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/OTT_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/OTT_dark.svg"
+    },
+    "gameState": "OFF",
+    "time": null,
+    "result": "SOL 3-4",
+    "flamesScore": 3,
+    "opponentScore": 4,
+    "periodType": "SO",
+    "tvNetworks": "SNW, RDS, TSN5",
+    "tvBroadcasts": [
+      {
+        "id": 289,
+        "market": "A",
+        "countryCode": "CA",
+        "network": "SNW",
+        "sequenceNumber": 34
+      },
+      {
+        "id": 33,
+        "market": "H",
+        "countryCode": "CA",
+        "network": "RDS",
+        "sequenceNumber": 132
+      },
+      {
+        "id": 294,
+        "market": "H",
+        "countryCode": "CA",
+        "network": "TSN5",
+        "sequenceNumber": 135
+      }
+    ],
+    "venue": "Canadian Tire Centre",
+    "ticketsLink": null
+  },
+  "2025-11-01": {
+    "id": 2025020183,
+    "date": "2025-11-01T07:00:00.000Z",
+    "isHome": false,
+    "opponent": {
+      "abbrev": "NSH",
+      "name": "Predators",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/NSH_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NSH_dark.svg"
+    },
+    "gameState": "OFF",
+    "time": null,
+    "result": "L 2-4",
+    "flamesScore": 2,
+    "opponentScore": 4,
+    "periodType": "REG",
+    "tvNetworks": "SN1, FDSNSO",
+    "tvBroadcasts": [
+      {
+        "id": 284,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SN1",
+        "sequenceNumber": 102
+      },
+      {
+        "id": 561,
+        "market": "H",
+        "countryCode": "US",
+        "network": "FDSNSO",
+        "sequenceNumber": 202
+      }
+    ],
+    "venue": "Bridgestone Arena",
+    "ticketsLink": null
+  },
+  "2025-11-02": {
+    "id": 2025020196,
+    "date": "2025-11-02T07:00:00.000Z",
+    "isHome": false,
+    "opponent": {
+      "abbrev": "PHI",
+      "name": "Flyers",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/PHI_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/PHI_dark.svg"
+    },
+    "gameState": "OFF",
+    "time": null,
+    "result": "W 2-1",
+    "flamesScore": 2,
+    "opponentScore": 1,
+    "periodType": "REG",
+    "tvNetworks": "NHLN, SN, TVAS, NBCSP+",
+    "tvBroadcasts": [
+      {
+        "id": 324,
+        "market": "N",
+        "countryCode": "US",
+        "network": "NHLN",
+        "sequenceNumber": 35
+      },
+      {
+        "id": 282,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SN",
+        "sequenceNumber": 101
+      },
+      {
+        "id": 281,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "TVAS",
+        "sequenceNumber": 109
+      },
+      {
+        "id": 323,
+        "market": "H",
+        "countryCode": "US",
+        "network": "NBCSP+",
+        "sequenceNumber": 401
+      }
+    ],
+    "venue": "Xfinity Mobile Arena",
+    "ticketsLink": null
+  },
+  "2025-11-05": {
+    "id": 2025020215,
+    "date": "2025-11-05T07:00:00.000Z",
+    "isHome": true,
+    "opponent": {
+      "abbrev": "CBJ",
+      "name": "Blue Jackets",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/CBJ_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CBJ_dark.svg"
+    },
+    "gameState": "OFF",
+    "time": null,
+    "result": "W 5-1",
+    "flamesScore": 5,
+    "opponentScore": 1,
+    "periodType": "REG",
+    "tvNetworks": "SNW, SN1, FDSNOH",
+    "tvBroadcasts": [
+      {
+        "id": 289,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SNW",
+        "sequenceNumber": 34
+      },
+      {
+        "id": 284,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SN1",
+        "sequenceNumber": 102
+      },
+      {
+        "id": 565,
+        "market": "A",
+        "countryCode": "US",
+        "network": "FDSNOH",
+        "sequenceNumber": 286
+      }
+    ],
+    "venue": "Scotiabank Saddledome",
+    "ticketsLink": null
+  },
+  "2025-11-07": {
+    "id": 2025020229,
+    "date": "2025-11-07T07:00:00.000Z",
+    "isHome": true,
+    "opponent": {
+      "abbrev": "CHI",
+      "name": "Blackhawks",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/CHI_light.svg?season=20252026",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CHI_dark.svg?season=20252026"
+    },
+    "gameState": "OFF",
+    "time": null,
+    "result": "L 0-4",
+    "flamesScore": 0,
+    "opponentScore": 4,
+    "periodType": "REG",
+    "tvNetworks": "SNW, TVAS, CHSN",
+    "tvBroadcasts": [
+      {
+        "id": 289,
+        "market": "H",
+        "countryCode": "CA",
+        "network": "SNW",
+        "sequenceNumber": 34
+      },
+      {
+        "id": 281,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "TVAS",
+        "sequenceNumber": 109
+      },
+      {
+        "id": 551,
+        "market": "A",
+        "countryCode": "US",
+        "network": "CHSN",
+        "sequenceNumber": 254
+      }
+    ],
+    "venue": "Scotiabank Saddledome",
+    "ticketsLink": null
+  },
+  "2025-11-09": {
+    "id": 2025020249,
+    "date": "2025-11-09T07:00:00.000Z",
+    "isHome": false,
+    "opponent": {
+      "abbrev": "MIN",
+      "name": "Wild",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/MIN_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/MIN_dark.svg"
+    },
+    "gameState": "OFF",
+    "time": null,
+    "result": "L 0-2",
+    "flamesScore": 0,
+    "opponentScore": 2,
+    "periodType": "REG",
+    "tvNetworks": "SNW, FDSNNOX, FDSNWI",
+    "tvBroadcasts": [
+      {
+        "id": 289,
+        "market": "A",
+        "countryCode": "CA",
+        "network": "SNW",
+        "sequenceNumber": 34
+      },
+      {
+        "id": 568,
+        "market": "H",
+        "countryCode": "US",
+        "network": "FDSNNOX",
+        "sequenceNumber": 285
+      },
+      {
+        "id": 569,
+        "market": "H",
+        "countryCode": "US",
+        "network": "FDSNWI",
+        "sequenceNumber": 419
+      }
+    ],
+    "venue": "Grand Casino Arena",
+    "ticketsLink": null
+  },
+  "2025-11-11": {
+    "id": 2025020260,
+    "date": "2025-11-11T07:00:00.000Z",
+    "isHome": false,
+    "opponent": {
+      "abbrev": "STL",
+      "name": "Blues",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/STL_light.svg?season=20252026",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/STL_dark.svg?season=20252026"
+    },
+    "gameState": "OFF",
+    "time": null,
+    "result": "L 2-3",
+    "flamesScore": 2,
+    "opponentScore": 3,
+    "periodType": "REG",
+    "tvNetworks": "SNW, FDSNMW",
+    "tvBroadcasts": [
+      {
+        "id": 289,
+        "market": "A",
+        "countryCode": "CA",
+        "network": "SNW",
+        "sequenceNumber": 34
+      },
+      {
+        "id": 566,
+        "market": "H",
+        "countryCode": "US",
+        "network": "FDSNMW",
+        "sequenceNumber": 201
+      }
+    ],
+    "venue": "Enterprise Center",
+    "ticketsLink": null
+  },
+  "2025-11-13": {
+    "id": 2025020276,
+    "date": "2025-11-13T07:00:00.000Z",
+    "isHome": true,
+    "opponent": {
+      "abbrev": "SJS",
+      "name": "Sharks",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/SJS_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/SJS_dark.svg"
+    },
+    "gameState": "OFF",
+    "time": null,
+    "result": "W 2-0",
+    "flamesScore": 2,
+    "opponentScore": 0,
+    "periodType": "REG",
+    "tvNetworks": "SN1, NBCSCA",
+    "tvBroadcasts": [
+      {
+        "id": 284,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SN1",
+        "sequenceNumber": 102
+      },
+      {
+        "id": 314,
+        "market": "A",
+        "countryCode": "US",
+        "network": "NBCSCA",
+        "sequenceNumber": 393
+      }
+    ],
+    "venue": "Scotiabank Saddledome",
+    "ticketsLink": null
+  },
+  "2025-11-15": {
+    "id": 2025020294,
+    "date": "2025-11-15T07:00:00.000Z",
+    "isHome": true,
+    "opponent": {
+      "abbrev": "WPG",
+      "name": "Jets",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/WPG_dark.svg"
+    },
+    "gameState": "OFF",
+    "time": null,
+    "result": "SOL 3-4",
+    "flamesScore": 3,
+    "opponentScore": 4,
+    "periodType": "SO",
+    "tvNetworks": "CBC, CITY, SN, SN1",
+    "tvBroadcasts": [
+      {
+        "id": 4,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "CBC",
+        "sequenceNumber": 25
+      },
+      {
+        "id": 286,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "CITY",
+        "sequenceNumber": 26
+      },
+      {
+        "id": 282,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SN",
+        "sequenceNumber": 101
+      },
+      {
+        "id": 284,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SN1",
+        "sequenceNumber": 102
+      }
+    ],
+    "venue": "Scotiabank Saddledome",
+    "ticketsLink": null
+  },
+  "2025-11-18": {
+    "id": 2025020312,
+    "date": "2025-11-18T07:00:00.000Z",
+    "isHome": false,
+    "opponent": {
+      "abbrev": "CHI",
+      "name": "Blackhawks",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/CHI_light.svg?season=20252026",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CHI_dark.svg?season=20252026"
+    },
+    "gameState": "OFF",
+    "time": null,
+    "result": "L 2-5",
+    "flamesScore": 2,
+    "opponentScore": 5,
+    "periodType": "REG",
+    "tvNetworks": "SNW, CHSN",
+    "tvBroadcasts": [
+      {
+        "id": 289,
+        "market": "A",
+        "countryCode": "CA",
+        "network": "SNW",
+        "sequenceNumber": 34
+      },
+      {
+        "id": 551,
+        "market": "H",
+        "countryCode": "US",
+        "network": "CHSN",
+        "sequenceNumber": 254
+      }
+    ],
+    "venue": "United Center",
+    "ticketsLink": null
+  },
+  "2025-11-19": {
+    "id": 2025020316,
+    "date": "2025-11-19T07:00:00.000Z",
+    "isHome": false,
+    "opponent": {
+      "abbrev": "BUF",
+      "name": "Sabres",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/BUF_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/BUF_dark.svg"
+    },
+    "gameState": "OFF",
+    "time": null,
+    "result": "W 6-2",
+    "flamesScore": 6,
+    "opponentScore": 2,
+    "periodType": "REG",
+    "tvNetworks": "SN1, TVAS2, MSG-B",
+    "tvBroadcasts": [
+      {
+        "id": 284,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SN1",
+        "sequenceNumber": 102
+      },
+      {
+        "id": 291,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "TVAS2",
+        "sequenceNumber": 110
+      },
+      {
+        "id": 28,
+        "market": "H",
+        "countryCode": "US",
+        "network": "MSG-B",
+        "sequenceNumber": 392
+      }
+    ],
+    "venue": "KeyBank Center",
+    "ticketsLink": null
+  },
+  "2025-11-22": {
+    "id": 2025020345,
+    "date": "2025-11-22T07:00:00.000Z",
+    "isHome": true,
+    "opponent": {
+      "abbrev": "DAL",
+      "name": "Stars",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/DAL_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/DAL_dark.svg"
+    },
+    "gameState": "OFF",
+    "time": null,
+    "result": "W 3-2",
+    "flamesScore": 3,
+    "opponentScore": 2,
+    "periodType": "SO",
+    "tvNetworks": "CBC, CITY, SN, SN1, SN360, Victory+",
+    "tvBroadcasts": [
+      {
+        "id": 4,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "CBC",
+        "sequenceNumber": 25
+      },
+      {
+        "id": 286,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "CITY",
+        "sequenceNumber": 26
+      },
+      {
+        "id": 282,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SN",
+        "sequenceNumber": 101
+      },
+      {
+        "id": 284,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SN1",
+        "sequenceNumber": 102
+      },
+      {
+        "id": 283,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SN360",
+        "sequenceNumber": 103
+      },
+      {
+        "id": 553,
+        "market": "A",
+        "countryCode": "US",
+        "network": "Victory+",
+        "sequenceNumber": 382
+      }
+    ],
+    "venue": "Scotiabank Saddledome",
+    "ticketsLink": null
+  },
+  "2025-11-23": {
+    "id": 2025020352,
+    "date": "2025-11-23T07:00:00.000Z",
+    "isHome": false,
+    "opponent": {
+      "abbrev": "VAN",
+      "name": "Canucks",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/VAN_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/VAN_dark.svg"
+    },
+    "gameState": "OFF",
+    "time": null,
+    "result": "W 5-2",
+    "flamesScore": 5,
+    "opponentScore": 2,
+    "periodType": "REG",
+    "tvNetworks": "SNP, SNW, SN1",
+    "tvBroadcasts": [
+      {
+        "id": 290,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SNP",
+        "sequenceNumber": 33
+      },
+      {
+        "id": 289,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SNW",
+        "sequenceNumber": 34
+      },
+      {
+        "id": 284,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SN1",
+        "sequenceNumber": 102
+      }
+    ],
+    "venue": "Rogers Arena",
+    "ticketsLink": null
+  },
+  "2025-11-26": {
+    "id": 2025020362,
+    "date": "2025-11-26T07:00:00.000Z",
+    "isHome": false,
+    "opponent": {
+      "abbrev": "TBL",
+      "name": "Lightning",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/TBL_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/TBL_dark.svg"
+    },
+    "gameState": "OFF",
+    "time": null,
+    "result": "L 1-5",
+    "flamesScore": 1,
+    "opponentScore": 5,
+    "periodType": "REG",
+    "tvNetworks": "SN1, The Spot",
+    "tvBroadcasts": [
+      {
+        "id": 284,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SN1",
+        "sequenceNumber": 102
+      },
+      {
+        "id": 581,
+        "market": "H",
+        "countryCode": "US",
+        "network": "The Spot",
+        "sequenceNumber": 211
+      }
+    ],
+    "venue": "Benchmark International Arena",
+    "ticketsLink": null
+  },
+  "2025-11-28": {
+    "id": 2025020380,
+    "date": "2025-11-28T07:00:00.000Z",
+    "isHome": false,
+    "opponent": {
+      "abbrev": "FLA",
+      "name": "Panthers",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/FLA_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/FLA_dark.svg"
+    },
+    "gameState": "OFF",
+    "time": null,
+    "result": "W 5-3",
+    "flamesScore": 5,
+    "opponentScore": 3,
+    "periodType": "REG",
+    "tvNetworks": "SNE, SNO, SNW, SCRIPPS",
+    "tvBroadcasts": [
+      {
+        "id": 287,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SNE",
+        "sequenceNumber": 30
+      },
+      {
+        "id": 288,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SNO",
+        "sequenceNumber": 31
+      },
+      {
+        "id": 289,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SNW",
+        "sequenceNumber": 34
+      },
+      {
+        "id": 521,
+        "market": "H",
+        "countryCode": "US",
+        "network": "SCRIPPS",
+        "sequenceNumber": 657
+      }
+    ],
+    "venue": "Amerant Bank Arena",
+    "ticketsLink": null
+  },
+  "2025-11-30": {
+    "id": 2025020404,
+    "date": "2025-11-30T07:00:00.000Z",
+    "isHome": false,
+    "opponent": {
+      "abbrev": "CAR",
+      "name": "Hurricanes",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CAR_dark.svg"
+    },
+    "gameState": "OFF",
+    "time": null,
+    "result": "OTL 0-1",
+    "flamesScore": 0,
+    "opponentScore": 1,
+    "periodType": "OT",
+    "tvNetworks": "SNE (JIP), SNO (JIP), SNW, FDSNSO, SNP (JIP)",
+    "tvBroadcasts": [
+      {
+        "id": 333,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SNE (JIP)",
+        "sequenceNumber": 1
+      },
+      {
+        "id": 334,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SNO (JIP)",
+        "sequenceNumber": 1
+      },
+      {
+        "id": 289,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SNW",
+        "sequenceNumber": 34
+      },
+      {
+        "id": 561,
+        "market": "H",
+        "countryCode": "US",
+        "network": "FDSNSO",
+        "sequenceNumber": 202
+      },
+      {
+        "id": 335,
+        "market": "N",
+        "countryCode": "US",
+        "network": "SNP (JIP)",
+        "sequenceNumber": 375
+      }
+    ],
+    "venue": "Lenovo Center",
+    "ticketsLink": null
+  },
+  "2025-12-02": {
+    "id": 2025020416,
+    "date": "2025-12-02T07:00:00.000Z",
+    "isHome": false,
+    "opponent": {
+      "abbrev": "NSH",
+      "name": "Predators",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/NSH_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NSH_dark.svg"
+    },
+    "gameState": "OFF",
+    "time": null,
+    "result": "L 1-5",
+    "flamesScore": 1,
+    "opponentScore": 5,
+    "periodType": "REG",
+    "tvNetworks": "SNW, FDSNSO",
+    "tvBroadcasts": [
+      {
+        "id": 289,
+        "market": "A",
+        "countryCode": "CA",
+        "network": "SNW",
+        "sequenceNumber": 34
+      },
+      {
+        "id": 561,
+        "market": "H",
+        "countryCode": "US",
+        "network": "FDSNSO",
+        "sequenceNumber": 202
+      }
+    ],
+    "venue": "Bridgestone Arena",
+    "ticketsLink": null
+  },
+  "2025-12-04": {
+    "id": 2025020433,
+    "date": "2025-12-04T07:00:00.000Z",
+    "isHome": true,
+    "opponent": {
+      "abbrev": "MIN",
+      "name": "Wild",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/MIN_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/MIN_dark.svg"
+    },
+    "gameState": "OFF",
+    "time": null,
+    "result": "W 4-1",
+    "flamesScore": 4,
+    "opponentScore": 1,
+    "periodType": "REG",
+    "tvNetworks": "SN1, FDSNNOX, FDSNWI",
+    "tvBroadcasts": [
+      {
+        "id": 284,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SN1",
+        "sequenceNumber": 102
+      },
+      {
+        "id": 568,
+        "market": "A",
+        "countryCode": "US",
+        "network": "FDSNNOX",
+        "sequenceNumber": 285
+      },
+      {
+        "id": 569,
+        "market": "A",
+        "countryCode": "US",
+        "network": "FDSNWI",
+        "sequenceNumber": 419
+      }
+    ],
+    "venue": "Scotiabank Saddledome",
+    "ticketsLink": null
+  },
+  "2025-12-06": {
+    "id": 2025020448,
+    "date": "2025-12-06T07:00:00.000Z",
+    "isHome": true,
+    "opponent": {
+      "abbrev": "UTA",
+      "name": "Mammoth",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/UTA_light.svg?season=20252026",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/UTA_dark.svg?season=20252026"
+    },
+    "gameState": "OFF",
+    "time": null,
+    "result": "W 2-0",
+    "flamesScore": 2,
+    "opponentScore": 0,
+    "periodType": "REG",
+    "tvNetworks": "CITY, SNW, NHLN, Utah16",
+    "tvBroadcasts": [
+      {
+        "id": 286,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "CITY",
+        "sequenceNumber": 26
+      },
+      {
+        "id": 289,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SNW",
+        "sequenceNumber": 34
+      },
+      {
+        "id": 324,
+        "market": "N",
+        "countryCode": "US",
+        "network": "NHLN",
+        "sequenceNumber": 35
+      },
+      {
+        "id": 558,
+        "market": "A",
+        "countryCode": "US",
+        "network": "Utah16",
+        "sequenceNumber": 381
+      }
+    ],
+    "venue": "Scotiabank Saddledome",
+    "ticketsLink": null
+  },
+  "2025-12-08": {
+    "id": 2025020463,
+    "date": "2025-12-08T07:00:00.000Z",
+    "isHome": true,
+    "opponent": {
+      "abbrev": "BUF",
+      "name": "Sabres",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/BUF_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/BUF_dark.svg"
+    },
+    "gameState": "OFF",
+    "time": null,
+    "result": "W 7-4",
+    "flamesScore": 7,
+    "opponentScore": 4,
+    "periodType": "REG",
+    "tvNetworks": "SNW, MSG-B",
+    "tvBroadcasts": [
+      {
+        "id": 289,
+        "market": "H",
+        "countryCode": "CA",
+        "network": "SNW",
+        "sequenceNumber": 34
+      },
+      {
+        "id": 28,
+        "market": "A",
+        "countryCode": "US",
+        "network": "MSG-B",
+        "sequenceNumber": 392
+      }
+    ],
+    "venue": "Scotiabank Saddledome",
+    "ticketsLink": null
+  },
+  "2025-12-10": {
+    "id": 2025020477,
+    "date": "2025-12-10T07:00:00.000Z",
+    "isHome": true,
+    "opponent": {
+      "abbrev": "DET",
+      "name": "Red Wings",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg?season=20252026",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/DET_dark.svg?season=20252026"
+    },
+    "gameState": "OFF",
+    "time": null,
+    "result": "L 3-4",
+    "flamesScore": 3,
+    "opponentScore": 4,
+    "periodType": "REG",
+    "tvNetworks": "SN, FDSNDET",
+    "tvBroadcasts": [
+      {
+        "id": 282,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SN",
+        "sequenceNumber": 101
+      },
+      {
+        "id": 562,
+        "market": "A",
+        "countryCode": "US",
+        "network": "FDSNDET",
+        "sequenceNumber": 282
+      }
+    ],
+    "venue": "Scotiabank Saddledome",
+    "ticketsLink": null
+  },
+  "2025-12-13": {
+    "id": 2025020507,
+    "date": "2025-12-13T07:00:00.000Z",
+    "isHome": false,
+    "opponent": {
+      "abbrev": "LAK",
+      "name": "Kings",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/LAK_dark.svg"
+    },
+    "gameState": "OFF",
+    "time": null,
+    "result": "W 2-1",
+    "flamesScore": 2,
+    "opponentScore": 1,
+    "periodType": "OT",
+    "tvNetworks": "CBC, CITY, SN, FDSNW, KCAL",
+    "tvBroadcasts": [
+      {
+        "id": 4,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "CBC",
+        "sequenceNumber": 25
+      },
+      {
+        "id": 286,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "CITY",
+        "sequenceNumber": 26
+      },
+      {
+        "id": 282,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SN",
+        "sequenceNumber": 101
+      },
+      {
+        "id": 564,
+        "market": "H",
+        "countryCode": "US",
+        "network": "FDSNW",
+        "sequenceNumber": 288
+      },
+      {
+        "id": 22,
+        "market": "H",
+        "countryCode": "US",
+        "network": "KCAL",
+        "sequenceNumber": 655
+      }
+    ],
+    "venue": "Crypto.com Arena",
+    "ticketsLink": null
+  },
+  "2025-12-16": {
+    "id": 2025020527,
+    "date": "2025-12-16T07:00:00.000Z",
+    "isHome": false,
+    "opponent": {
+      "abbrev": "SJS",
+      "name": "Sharks",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/SJS_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/SJS_dark.svg"
+    },
+    "gameState": "OFF",
+    "time": null,
+    "result": "L 3-6",
+    "flamesScore": 3,
+    "opponentScore": 6,
+    "periodType": "REG",
+    "tvNetworks": "SNP, SNW, SN360, NBCSCA",
+    "tvBroadcasts": [
+      {
+        "id": 290,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SNP",
+        "sequenceNumber": 33
+      },
+      {
+        "id": 289,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SNW",
+        "sequenceNumber": 34
+      },
+      {
+        "id": 283,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SN360",
+        "sequenceNumber": 103
+      },
+      {
+        "id": 314,
+        "market": "H",
+        "countryCode": "US",
+        "network": "NBCSCA",
+        "sequenceNumber": 393
+      }
+    ],
+    "venue": "SAP Center at San Jose",
+    "ticketsLink": null
+  },
+  "2025-12-18": {
+    "id": 2025020542,
+    "date": "2025-12-18T07:00:00.000Z",
+    "isHome": true,
+    "opponent": {
+      "abbrev": "SEA",
+      "name": "Kraken",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/SEA_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/SEA_dark.svg"
+    },
+    "gameState": "OFF",
+    "time": null,
+    "result": "W 4-2",
+    "flamesScore": 4,
+    "opponentScore": 2,
+    "periodType": "REG",
+    "tvNetworks": "SN1, TVAS, KHN/Prime, KING 5, KONG",
+    "tvBroadcasts": [
+      {
+        "id": 284,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SN1",
+        "sequenceNumber": 102
+      },
+      {
+        "id": 281,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "TVAS",
+        "sequenceNumber": 109
+      },
+      {
+        "id": 554,
+        "market": "A",
+        "countryCode": "US",
+        "network": "KHN/Prime",
+        "sequenceNumber": 348
+      },
+      {
+        "id": 552,
+        "market": "A",
+        "countryCode": "US",
+        "network": "KING 5",
+        "sequenceNumber": 349
+      },
+      {
+        "id": 388,
+        "market": "A",
+        "countryCode": "US",
+        "network": "KONG",
+        "sequenceNumber": 654
+      }
+    ],
+    "venue": "Scotiabank Saddledome",
+    "ticketsLink": null
+  },
+  "2025-12-20": {
+    "id": 2025020559,
+    "date": "2025-12-20T07:00:00.000Z",
+    "isHome": true,
+    "opponent": {
+      "abbrev": "VGK",
+      "name": "Golden Knights",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/VGK_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/VGK_dark.svg"
+    },
+    "gameState": "OFF",
+    "time": null,
+    "result": "W 6-3",
+    "flamesScore": 6,
+    "opponentScore": 3,
+    "periodType": "REG",
+    "tvNetworks": "CBC, CITY, SN, SCRIPPS",
+    "tvBroadcasts": [
+      {
+        "id": 4,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "CBC",
+        "sequenceNumber": 25
+      },
+      {
+        "id": 286,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "CITY",
+        "sequenceNumber": 26
+      },
+      {
+        "id": 282,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SN",
+        "sequenceNumber": 101
+      },
+      {
+        "id": 521,
+        "market": "A",
+        "countryCode": "US",
+        "network": "SCRIPPS",
+        "sequenceNumber": 657
+      }
+    ],
+    "venue": "Scotiabank Saddledome",
+    "ticketsLink": null
+  },
+  "2025-12-23": {
+    "id": 2025020585,
+    "date": "2025-12-23T07:00:00.000Z",
+    "isHome": false,
+    "opponent": {
+      "abbrev": "EDM",
+      "name": "Oilers",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/EDM_dark.svg"
+    },
+    "gameState": "OFF",
+    "time": null,
+    "result": "L 1-5",
+    "flamesScore": 1,
+    "opponentScore": 5,
+    "periodType": "REG",
+    "tvNetworks": "SNW, SN360",
+    "tvBroadcasts": [
+      {
+        "id": 289,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SNW",
+        "sequenceNumber": 34
+      },
+      {
+        "id": 283,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SN360",
+        "sequenceNumber": 103
+      }
+    ],
+    "venue": "Rogers Place",
+    "ticketsLink": null
+  },
+  "2025-12-27": {
+    "id": 2025020598,
+    "date": "2025-12-27T07:00:00.000Z",
+    "isHome": true,
+    "opponent": {
+      "abbrev": "EDM",
+      "name": "Oilers",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/EDM_dark.svg"
+    },
+    "gameState": "OFF",
+    "time": null,
+    "result": "W 3-2",
+    "flamesScore": 3,
+    "opponentScore": 2,
+    "periodType": "REG",
+    "tvNetworks": "CBC, SNE, SNO, SNW, TVAS",
+    "tvBroadcasts": [
+      {
+        "id": 4,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "CBC",
+        "sequenceNumber": 25
+      },
+      {
+        "id": 287,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SNE",
+        "sequenceNumber": 30
+      },
+      {
+        "id": 288,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SNO",
+        "sequenceNumber": 31
+      },
+      {
+        "id": 289,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SNW",
+        "sequenceNumber": 34
+      },
+      {
+        "id": 281,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "TVAS",
+        "sequenceNumber": 109
+      }
+    ],
+    "venue": "Scotiabank Saddledome",
+    "ticketsLink": null
+  },
+  "2025-12-29": {
+    "id": 2025020613,
+    "date": "2025-12-29T07:00:00.000Z",
+    "isHome": true,
+    "opponent": {
+      "abbrev": "BOS",
+      "name": "Bruins",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg?season=20252026",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/BOS_dark.svg?season=20252026"
+    },
+    "gameState": "OFF",
+    "time": null,
+    "result": "W 2-1",
+    "flamesScore": 2,
+    "opponentScore": 1,
+    "periodType": "OT",
+    "tvNetworks": "SNW, TVAS, NESN",
+    "tvBroadcasts": [
+      {
+        "id": 289,
+        "market": "H",
+        "countryCode": "CA",
+        "network": "SNW",
+        "sequenceNumber": 34
+      },
+      {
+        "id": 281,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "TVAS",
+        "sequenceNumber": 109
+      },
+      {
+        "id": 31,
+        "market": "A",
+        "countryCode": "US",
+        "network": "NESN",
+        "sequenceNumber": 405
+      }
+    ],
+    "venue": "Scotiabank Saddledome",
+    "ticketsLink": null
+  },
+  "2025-12-31": {
+    "id": 2025020630,
+    "date": "2025-12-31T07:00:00.000Z",
+    "isHome": true,
+    "opponent": {
+      "abbrev": "PHI",
+      "name": "Flyers",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/PHI_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/PHI_dark.svg"
+    },
+    "gameState": "OFF",
+    "time": null,
+    "result": "W 5-1",
+    "flamesScore": 5,
+    "opponentScore": 1,
+    "periodType": "REG",
+    "tvNetworks": "SN1, NBCSP",
+    "tvBroadcasts": [
+      {
+        "id": 284,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SN1",
+        "sequenceNumber": 102
+      },
+      {
+        "id": 322,
+        "market": "A",
+        "countryCode": "US",
+        "network": "NBCSP",
+        "sequenceNumber": 389
+      }
+    ],
+    "venue": "Scotiabank Saddledome",
+    "ticketsLink": null
+  },
+  "2026-01-03": {
+    "id": 2025020654,
+    "date": "2026-01-03T07:00:00.000Z",
+    "isHome": true,
+    "opponent": {
+      "abbrev": "NSH",
+      "name": "Predators",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/NSH_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NSH_dark.svg"
+    },
+    "gameState": "FUT",
+    "time": "5:00 PM",
+    "result": null,
+    "flamesScore": null,
+    "opponentScore": null,
+    "periodType": null,
+    "tvNetworks": "CITY, SNW, FDSNSO",
+    "tvBroadcasts": [
+      {
+        "id": 286,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "CITY",
+        "sequenceNumber": 26
+      },
+      {
+        "id": 289,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SNW",
+        "sequenceNumber": 34
+      },
+      {
+        "id": 561,
+        "market": "A",
+        "countryCode": "US",
+        "network": "FDSNSO",
+        "sequenceNumber": 202
+      }
+    ],
+    "venue": "Scotiabank Saddledome",
+    "ticketsLink": "https://www.ticketmaster.ca/event/110062F6D2004FAD?brand=calgaryflames&artistid=805907&wt.mc_id=NHL_TEAM_CGY_SCHEDULE_GM20&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_CGY&utm_content=SCHEDULE_GM20"
+  },
+  "2026-01-05": {
+    "id": 2025020665,
+    "date": "2026-01-05T07:00:00.000Z",
+    "isHome": true,
+    "opponent": {
+      "abbrev": "SEA",
+      "name": "Kraken",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/SEA_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/SEA_dark.svg"
+    },
+    "gameState": "FUT",
+    "time": "7:30 PM",
+    "result": null,
+    "flamesScore": null,
+    "opponentScore": null,
+    "periodType": null,
+    "tvNetworks": "SNW, KHN/Prime, KING 5, KONG",
+    "tvBroadcasts": [
+      {
+        "id": 289,
+        "market": "H",
+        "countryCode": "CA",
+        "network": "SNW",
+        "sequenceNumber": 34
+      },
+      {
+        "id": 554,
+        "market": "A",
+        "countryCode": "US",
+        "network": "KHN/Prime",
+        "sequenceNumber": 348
+      },
+      {
+        "id": 552,
+        "market": "A",
+        "countryCode": "US",
+        "network": "KING 5",
+        "sequenceNumber": 349
+      },
+      {
+        "id": 388,
+        "market": "A",
+        "countryCode": "US",
+        "network": "KONG",
+        "sequenceNumber": 654
+      }
+    ],
+    "venue": "Scotiabank Saddledome",
+    "ticketsLink": "https://www.ticketmaster.ca/event/110062F6D2034FB5?brand=calgaryflames&artistid=805907&wt.mc_id=NHL_TEAM_CGY_SCHEDULE_GM21&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_CGY&utm_content=SCHEDULE_GM21"
+  },
+  "2026-01-07": {
+    "id": 2025020678,
+    "date": "2026-01-07T07:00:00.000Z",
+    "isHome": false,
+    "opponent": {
+      "abbrev": "MTL",
+      "name": "Canadiens",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/MTL_dark.svg"
+    },
+    "gameState": "FUT",
+    "time": "5:30 PM",
+    "result": null,
+    "flamesScore": null,
+    "opponentScore": null,
+    "periodType": null,
+    "tvNetworks": "SN, RDS",
+    "tvBroadcasts": [
+      {
+        "id": 282,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SN",
+        "sequenceNumber": 101
+      },
+      {
+        "id": 33,
+        "market": "H",
+        "countryCode": "CA",
+        "network": "RDS",
+        "sequenceNumber": 132
+      }
+    ],
+    "venue": "Centre Bell",
+    "ticketsLink": null
+  },
+  "2026-01-08": {
+    "id": 2025020682,
+    "date": "2026-01-08T07:00:00.000Z",
+    "isHome": false,
+    "opponent": {
+      "abbrev": "BOS",
+      "name": "Bruins",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg?season=20252026",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/BOS_dark.svg?season=20252026"
+    },
+    "gameState": "FUT",
+    "time": "5:00 PM",
+    "result": null,
+    "flamesScore": null,
+    "opponentScore": null,
+    "periodType": null,
+    "tvNetworks": "SNO, SN1, NESN",
+    "tvBroadcasts": [
+      {
+        "id": 288,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SNO",
+        "sequenceNumber": 31
+      },
+      {
+        "id": 284,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SN1",
+        "sequenceNumber": 102
+      },
+      {
+        "id": 31,
+        "market": "H",
+        "countryCode": "US",
+        "network": "NESN",
+        "sequenceNumber": 405
+      }
+    ],
+    "venue": "TD Garden",
+    "ticketsLink": null
+  },
+  "2026-01-10": {
+    "id": 2025020698,
+    "date": "2026-01-10T07:00:00.000Z",
+    "isHome": false,
+    "opponent": {
+      "abbrev": "PIT",
+      "name": "Penguins",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/PIT_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/PIT_dark.svg"
+    },
+    "gameState": "FUT",
+    "time": "1:30 PM",
+    "result": null,
+    "flamesScore": null,
+    "opponentScore": null,
+    "periodType": null,
+    "tvNetworks": "SN, TVAS, SN-PIT",
+    "tvBroadcasts": [
+      {
+        "id": 282,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SN",
+        "sequenceNumber": 101
+      },
+      {
+        "id": 281,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "TVAS",
+        "sequenceNumber": 109
+      },
+      {
+        "id": 528,
+        "market": "H",
+        "countryCode": "US",
+        "network": "SN-PIT",
+        "sequenceNumber": 384
+      }
+    ],
+    "venue": "PPG Paints Arena",
+    "ticketsLink": null
+  },
+  "2026-01-13": {
+    "id": 2025020728,
+    "date": "2026-01-13T07:00:00.000Z",
+    "isHome": false,
+    "opponent": {
+      "abbrev": "CBJ",
+      "name": "Blue Jackets",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/CBJ_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CBJ_dark.svg"
+    },
+    "gameState": "FUT",
+    "time": "5:00 PM",
+    "result": null,
+    "flamesScore": null,
+    "opponentScore": null,
+    "periodType": null,
+    "tvNetworks": "SNW, FDSNOH",
+    "tvBroadcasts": [
+      {
+        "id": 289,
+        "market": "A",
+        "countryCode": "CA",
+        "network": "SNW",
+        "sequenceNumber": 34
+      },
+      {
+        "id": 565,
+        "market": "H",
+        "countryCode": "US",
+        "network": "FDSNOH",
+        "sequenceNumber": 286
+      }
+    ],
+    "venue": "Nationwide Arena",
+    "ticketsLink": null
+  },
+  "2026-01-15": {
+    "id": 2025020745,
+    "date": "2026-01-15T07:00:00.000Z",
+    "isHome": false,
+    "opponent": {
+      "abbrev": "CHI",
+      "name": "Blackhawks",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/CHI_light.svg?season=20252026",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CHI_dark.svg?season=20252026"
+    },
+    "gameState": "FUT",
+    "time": "6:30 PM",
+    "result": null,
+    "flamesScore": null,
+    "opponentScore": null,
+    "periodType": null,
+    "tvNetworks": "SNW, CHSN",
+    "tvBroadcasts": [
+      {
+        "id": 289,
+        "market": "A",
+        "countryCode": "CA",
+        "network": "SNW",
+        "sequenceNumber": 34
+      },
+      {
+        "id": 551,
+        "market": "H",
+        "countryCode": "US",
+        "network": "CHSN",
+        "sequenceNumber": 254
+      }
+    ],
+    "venue": "United Center",
+    "ticketsLink": null
+  },
+  "2026-01-17": {
+    "id": 2025020756,
+    "date": "2026-01-17T07:00:00.000Z",
+    "isHome": true,
+    "opponent": {
+      "abbrev": "NYI",
+      "name": "Islanders",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/NYI_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NYI_dark.svg"
+    },
+    "gameState": "FUT",
+    "time": "1:00 PM",
+    "result": null,
+    "flamesScore": null,
+    "opponentScore": null,
+    "periodType": null,
+    "tvNetworks": "CBC, SN, TVAS, MSGSN",
+    "tvBroadcasts": [
+      {
+        "id": 4,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "CBC",
+        "sequenceNumber": 25
+      },
+      {
+        "id": 282,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SN",
+        "sequenceNumber": 101
+      },
+      {
+        "id": 281,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "TVAS",
+        "sequenceNumber": 109
+      },
+      {
+        "id": 409,
+        "market": "A",
+        "countryCode": "US",
+        "network": "MSGSN",
+        "sequenceNumber": 411
+      }
+    ],
+    "venue": "Scotiabank Saddledome",
+    "ticketsLink": "https://www.ticketmaster.ca/event/110062F6D2064FB8?brand=calgaryflames&artistid=805907&wt.mc_id=NHL_TEAM_CGY_SCHEDULE_GM22&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_CGY&utm_content=SCHEDULE_GM22"
+  },
+  "2026-01-19": {
+    "id": 2025020777,
+    "date": "2026-01-19T07:00:00.000Z",
+    "isHome": true,
+    "opponent": {
+      "abbrev": "NJD",
+      "name": "Devils",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NJD_dark.svg"
+    },
+    "gameState": "FUT",
+    "time": "7:00 PM",
+    "result": null,
+    "flamesScore": null,
+    "opponentScore": null,
+    "periodType": null,
+    "tvNetworks": "SNW, MSGSN",
+    "tvBroadcasts": [
+      {
+        "id": 289,
+        "market": "H",
+        "countryCode": "CA",
+        "network": "SNW",
+        "sequenceNumber": 34
+      },
+      {
+        "id": 409,
+        "market": "A",
+        "countryCode": "US",
+        "network": "MSGSN",
+        "sequenceNumber": 411
+      }
+    ],
+    "venue": "Scotiabank Saddledome",
+    "ticketsLink": "https://www.ticketmaster.ca/event/110062F6D2094FC7?brand=calgaryflames&artistid=805907&wt.mc_id=NHL_TEAM_CGY_SCHEDULE_GM23&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_CGY&utm_content=SCHEDULE_GM23"
+  },
+  "2026-01-21": {
+    "id": 2025020791,
+    "date": "2026-01-21T07:00:00.000Z",
+    "isHome": true,
+    "opponent": {
+      "abbrev": "PIT",
+      "name": "Penguins",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/PIT_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/PIT_dark.svg"
+    },
+    "gameState": "FUT",
+    "time": "7:30 PM",
+    "result": null,
+    "flamesScore": null,
+    "opponentScore": null,
+    "periodType": null,
+    "tvNetworks": "SNW, SN1, TVAS, SN-PIT",
+    "tvBroadcasts": [
+      {
+        "id": 289,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SNW",
+        "sequenceNumber": 34
+      },
+      {
+        "id": 284,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SN1",
+        "sequenceNumber": 102
+      },
+      {
+        "id": 281,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "TVAS",
+        "sequenceNumber": 109
+      },
+      {
+        "id": 528,
+        "market": "A",
+        "countryCode": "US",
+        "network": "SN-PIT",
+        "sequenceNumber": 384
+      }
+    ],
+    "venue": "Scotiabank Saddledome",
+    "ticketsLink": "https://www.ticketmaster.ca/event/110062F6D20D4FCF?brand=calgaryflames&artistid=805907&wt.mc_id=NHL_TEAM_CGY_SCHEDULE_GM24&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_CGY&utm_content=SCHEDULE_GM24"
+  },
+  "2026-01-23": {
+    "id": 2025020806,
+    "date": "2026-01-23T07:00:00.000Z",
+    "isHome": true,
+    "opponent": {
+      "abbrev": "WSH",
+      "name": "Capitals",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_dark.svg"
+    },
+    "gameState": "FUT",
+    "time": "7:00 PM",
+    "result": null,
+    "flamesScore": null,
+    "opponentScore": null,
+    "periodType": null,
+    "tvNetworks": "SN1, MNMT",
+    "tvBroadcasts": [
+      {
+        "id": 284,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SN1",
+        "sequenceNumber": 102
+      },
+      {
+        "id": 517,
+        "market": "A",
+        "countryCode": "US",
+        "network": "MNMT",
+        "sequenceNumber": 396
+      }
+    ],
+    "venue": "Scotiabank Saddledome",
+    "ticketsLink": "https://www.ticketmaster.ca/event/110062F6D20F4FD7?brand=calgaryflames&artistid=805907&wt.mc_id=NHL_TEAM_CGY_SCHEDULE_GM25&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_CGY&utm_content=SCHEDULE_GM25"
+  },
+  "2026-01-25": {
+    "id": 2025020824,
+    "date": "2026-01-25T07:00:00.000Z",
+    "isHome": true,
+    "opponent": {
+      "abbrev": "ANA",
+      "name": "Ducks",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/ANA_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/ANA_dark.svg"
+    },
+    "gameState": "FUT",
+    "time": "6:00 PM",
+    "result": null,
+    "flamesScore": null,
+    "opponentScore": null,
+    "periodType": null,
+    "tvNetworks": "SNW, SN360, Victory+, KCOP-13",
+    "tvBroadcasts": [
+      {
+        "id": 289,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SNW",
+        "sequenceNumber": 34
+      },
+      {
+        "id": 283,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SN360",
+        "sequenceNumber": 103
+      },
+      {
+        "id": 553,
+        "market": "A",
+        "countryCode": "US",
+        "network": "Victory+",
+        "sequenceNumber": 382
+      },
+      {
+        "id": 219,
+        "market": "A",
+        "countryCode": "US",
+        "network": "KCOP-13",
+        "sequenceNumber": 656
+      }
+    ],
+    "venue": "Scotiabank Saddledome",
+    "ticketsLink": "https://www.ticketmaster.ca/event/110062F6D2124FD9?brand=calgaryflames&artistid=805907&wt.mc_id=NHL_TEAM_CGY_SCHEDULE_GM26&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_CGY&utm_content=SCHEDULE_GM26"
+  },
+  "2026-01-29": {
+    "id": 2025020853,
+    "date": "2026-01-29T07:00:00.000Z",
+    "isHome": false,
+    "opponent": {
+      "abbrev": "MIN",
+      "name": "Wild",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/MIN_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/MIN_dark.svg"
+    },
+    "gameState": "FUT",
+    "time": "6:00 PM",
+    "result": null,
+    "flamesScore": null,
+    "opponentScore": null,
+    "periodType": null,
+    "tvNetworks": "SNW, FDSNNO, FDSNWI",
+    "tvBroadcasts": [
+      {
+        "id": 289,
+        "market": "A",
+        "countryCode": "CA",
+        "network": "SNW",
+        "sequenceNumber": 34
+      },
+      {
+        "id": 567,
+        "market": "H",
+        "countryCode": "US",
+        "network": "FDSNNO",
+        "sequenceNumber": 284
+      },
+      {
+        "id": 569,
+        "market": "H",
+        "countryCode": "US",
+        "network": "FDSNWI",
+        "sequenceNumber": 419
+      }
+    ],
+    "venue": "Grand Casino Arena",
+    "ticketsLink": null
+  },
+  "2026-01-31": {
+    "id": 2025020863,
+    "date": "2026-01-31T07:00:00.000Z",
+    "isHome": true,
+    "opponent": {
+      "abbrev": "SJS",
+      "name": "Sharks",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/SJS_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/SJS_dark.svg"
+    },
+    "gameState": "FUT",
+    "time": "2:00 PM",
+    "result": null,
+    "flamesScore": null,
+    "opponentScore": null,
+    "periodType": null,
+    "tvNetworks": "SN, NBCSCA",
+    "tvBroadcasts": [
+      {
+        "id": 282,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SN",
+        "sequenceNumber": 101
+      },
+      {
+        "id": 314,
+        "market": "A",
+        "countryCode": "US",
+        "network": "NBCSCA",
+        "sequenceNumber": 393
+      }
+    ],
+    "venue": "Scotiabank Saddledome",
+    "ticketsLink": "https://www.ticketmaster.ca/event/110062F6D2154FEA?brand=calgaryflames&artistid=805907&wt.mc_id=NHL_TEAM_CGY_SCHEDULE_GM27&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_CGY&utm_content=SCHEDULE_GM27"
+  },
+  "2026-02-02": {
+    "id": 2025020885,
+    "date": "2026-02-02T07:00:00.000Z",
+    "isHome": true,
+    "opponent": {
+      "abbrev": "TOR",
+      "name": "Maple Leafs",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/TOR_dark.svg"
+    },
+    "gameState": "FUT",
+    "time": "8:00 PM",
+    "result": null,
+    "flamesScore": null,
+    "opponentScore": null,
+    "periodType": null,
+    "tvNetworks": "SNW, TVAS, TSN4",
+    "tvBroadcasts": [
+      {
+        "id": 289,
+        "market": "H",
+        "countryCode": "CA",
+        "network": "SNW",
+        "sequenceNumber": 34
+      },
+      {
+        "id": 281,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "TVAS",
+        "sequenceNumber": 109
+      },
+      {
+        "id": 293,
+        "market": "A",
+        "countryCode": "CA",
+        "network": "TSN4",
+        "sequenceNumber": 137
+      }
+    ],
+    "venue": "Scotiabank Saddledome",
+    "ticketsLink": "https://www.ticketmaster.ca/event/110062F6D2184FED?brand=calgaryflames&artistid=805907&wt.mc_id=NHL_TEAM_CGY_SCHEDULE_GM28&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_CGY&utm_content=SCHEDULE_GM28"
+  },
+  "2026-02-04": {
+    "id": 2025020900,
+    "date": "2026-02-04T07:00:00.000Z",
+    "isHome": true,
+    "opponent": {
+      "abbrev": "EDM",
+      "name": "Oilers",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/EDM_dark.svg"
+    },
+    "gameState": "FUT",
+    "time": "8:00 PM",
+    "result": null,
+    "flamesScore": null,
+    "opponentScore": null,
+    "periodType": null,
+    "tvNetworks": "SN, SN360, TVAS",
+    "tvBroadcasts": [
+      {
+        "id": 282,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SN",
+        "sequenceNumber": 101
+      },
+      {
+        "id": 283,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SN360",
+        "sequenceNumber": 103
+      },
+      {
+        "id": 281,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "TVAS",
+        "sequenceNumber": 109
+      }
+    ],
+    "venue": "Scotiabank Saddledome",
+    "ticketsLink": "https://www.ticketmaster.ca/event/110062F6D21C4FF2?brand=calgaryflames&artistid=805907&wt.mc_id=NHL_TEAM_CGY_SCHEDULE_GM29&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_CGY&utm_content=SCHEDULE_GM29"
+  },
+  "2026-02-26": {
+    "id": 2025020928,
+    "date": "2026-02-26T07:00:00.000Z",
+    "isHome": false,
+    "opponent": {
+      "abbrev": "SJS",
+      "name": "Sharks",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/SJS_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/SJS_dark.svg"
+    },
+    "gameState": "FUT",
+    "time": "8:00 PM",
+    "result": null,
+    "flamesScore": null,
+    "opponentScore": null,
+    "periodType": null,
+    "tvNetworks": "SN1, NBCSCA",
+    "tvBroadcasts": [
+      {
+        "id": 284,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SN1",
+        "sequenceNumber": 102
+      },
+      {
+        "id": 314,
+        "market": "H",
+        "countryCode": "US",
+        "network": "NBCSCA",
+        "sequenceNumber": 393
+      }
+    ],
+    "venue": "SAP Center at San Jose",
+    "ticketsLink": null
+  },
+  "2026-02-28": {
+    "id": 2025020944,
+    "date": "2026-02-28T07:00:00.000Z",
+    "isHome": false,
+    "opponent": {
+      "abbrev": "LAK",
+      "name": "Kings",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/LAK_dark.svg"
+    },
+    "gameState": "FUT",
+    "time": "5:00 PM",
+    "result": null,
+    "flamesScore": null,
+    "opponentScore": null,
+    "periodType": null,
+    "tvNetworks": "SNW, FDSNW",
+    "tvBroadcasts": [
+      {
+        "id": 289,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SNW",
+        "sequenceNumber": 34
+      },
+      {
+        "id": 564,
+        "market": "H",
+        "countryCode": "US",
+        "network": "FDSNW",
+        "sequenceNumber": 288
+      }
+    ],
+    "venue": "Crypto.com Arena",
+    "ticketsLink": null
+  },
+  "2026-03-01": {
+    "id": 2025020952,
+    "date": "2026-03-01T07:00:00.000Z",
+    "isHome": false,
+    "opponent": {
+      "abbrev": "ANA",
+      "name": "Ducks",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/ANA_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/ANA_dark.svg"
+    },
+    "gameState": "FUT",
+    "time": "6:00 PM",
+    "result": null,
+    "flamesScore": null,
+    "opponentScore": null,
+    "periodType": null,
+    "tvNetworks": "SNW, Victory+",
+    "tvBroadcasts": [
+      {
+        "id": 289,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SNW",
+        "sequenceNumber": 34
+      },
+      {
+        "id": 553,
+        "market": "H",
+        "countryCode": "US",
+        "network": "Victory+",
+        "sequenceNumber": 382
+      }
+    ],
+    "venue": "Honda Center",
+    "ticketsLink": null
+  },
+  "2026-03-03": {
+    "id": 2025020965,
+    "date": "2026-03-03T07:00:00.000Z",
+    "isHome": true,
+    "opponent": {
+      "abbrev": "DAL",
+      "name": "Stars",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/DAL_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/DAL_dark.svg"
+    },
+    "gameState": "FUT",
+    "time": "7:00 PM",
+    "result": null,
+    "flamesScore": null,
+    "opponentScore": null,
+    "periodType": null,
+    "tvNetworks": "SN1, Victory+",
+    "tvBroadcasts": [
+      {
+        "id": 284,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SN1",
+        "sequenceNumber": 102
+      },
+      {
+        "id": 553,
+        "market": "A",
+        "countryCode": "US",
+        "network": "Victory+",
+        "sequenceNumber": 382
+      }
+    ],
+    "venue": "Scotiabank Saddledome",
+    "ticketsLink": "https://www.ticketmaster.ca/event/110062F6D21E4FF4?brand=calgaryflames&artistid=805907&wt.mc_id=NHL_TEAM_CGY_SCHEDULE_GM30&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_CGY&utm_content=SCHEDULE_GM30"
+  },
+  "2026-03-05": {
+    "id": 2025020981,
+    "date": "2026-03-05T07:00:00.000Z",
+    "isHome": true,
+    "opponent": {
+      "abbrev": "OTT",
+      "name": "Senators",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/OTT_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/OTT_dark.svg"
+    },
+    "gameState": "FUT",
+    "time": "7:00 PM",
+    "result": null,
+    "flamesScore": null,
+    "opponentScore": null,
+    "periodType": null,
+    "tvNetworks": "SNW, RDS2, TSN5",
+    "tvBroadcasts": [
+      {
+        "id": 289,
+        "market": "H",
+        "countryCode": "CA",
+        "network": "SNW",
+        "sequenceNumber": 34
+      },
+      {
+        "id": 230,
+        "market": "A",
+        "countryCode": "CA",
+        "network": "RDS2",
+        "sequenceNumber": 133
+      },
+      {
+        "id": 294,
+        "market": "A",
+        "countryCode": "CA",
+        "network": "TSN5",
+        "sequenceNumber": 135
+      }
+    ],
+    "venue": "Scotiabank Saddledome",
+    "ticketsLink": "https://www.ticketmaster.ca/event/110062F6D2214FF6?brand=calgaryflames&artistid=805907&wt.mc_id=NHL_TEAM_CGY_SCHEDULE_GM31&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_CGY&utm_content=SCHEDULE_GM31"
+  },
+  "2026-03-07": {
+    "id": 2025020998,
+    "date": "2026-03-07T07:00:00.000Z",
+    "isHome": true,
+    "opponent": {
+      "abbrev": "CAR",
+      "name": "Hurricanes",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CAR_dark.svg"
+    },
+    "gameState": "FUT",
+    "time": "8:00 PM",
+    "result": null,
+    "flamesScore": null,
+    "opponentScore": null,
+    "periodType": null,
+    "tvNetworks": "CBC, SNP, SNW, FDSNSO",
+    "tvBroadcasts": [
+      {
+        "id": 4,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "CBC",
+        "sequenceNumber": 25
+      },
+      {
+        "id": 290,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SNP",
+        "sequenceNumber": 33
+      },
+      {
+        "id": 289,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SNW",
+        "sequenceNumber": 34
+      },
+      {
+        "id": 561,
+        "market": "A",
+        "countryCode": "US",
+        "network": "FDSNSO",
+        "sequenceNumber": 202
+      }
+    ],
+    "venue": "Scotiabank Saddledome",
+    "ticketsLink": "https://www.ticketmaster.ca/event/110062F6D2244FFA?brand=calgaryflames&artistid=805907&wt.mc_id=NHL_TEAM_CGY_SCHEDULE_GM32&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_CGY&utm_content=SCHEDULE_GM32"
+  },
+  "2026-03-09": {
+    "id": 2025021009,
+    "date": "2026-03-09T07:00:00.000Z",
+    "isHome": false,
+    "opponent": {
+      "abbrev": "WSH",
+      "name": "Capitals",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_dark.svg"
+    },
+    "gameState": "FUT",
+    "time": "5:00 PM",
+    "result": null,
+    "flamesScore": null,
+    "opponentScore": null,
+    "periodType": null,
+    "tvNetworks": "SNW, MNMT",
+    "tvBroadcasts": [
+      {
+        "id": 289,
+        "market": "A",
+        "countryCode": "CA",
+        "network": "SNW",
+        "sequenceNumber": 34
+      },
+      {
+        "id": 517,
+        "market": "H",
+        "countryCode": "US",
+        "network": "MNMT",
+        "sequenceNumber": 396
+      }
+    ],
+    "venue": "Capital One Arena",
+    "ticketsLink": null
+  },
+  "2026-03-10": {
+    "id": 2025021017,
+    "date": "2026-03-10T07:00:00.000Z",
+    "isHome": false,
+    "opponent": {
+      "abbrev": "NYR",
+      "name": "Rangers",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/NYR_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NYR_dark.svg"
+    },
+    "gameState": "FUT",
+    "time": "5:00 PM",
+    "result": null,
+    "flamesScore": null,
+    "opponentScore": null,
+    "periodType": null,
+    "tvNetworks": "SNW, MSG",
+    "tvBroadcasts": [
+      {
+        "id": 289,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SNW",
+        "sequenceNumber": 34
+      },
+      {
+        "id": 27,
+        "market": "H",
+        "countryCode": "US",
+        "network": "MSG",
+        "sequenceNumber": 417
+      }
+    ],
+    "venue": "Madison Square Garden",
+    "ticketsLink": null
+  },
+  "2026-03-12": {
+    "id": 2025021032,
+    "date": "2026-03-12T07:00:00.000Z",
+    "isHome": false,
+    "opponent": {
+      "abbrev": "NJD",
+      "name": "Devils",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NJD_dark.svg"
+    },
+    "gameState": "FUT",
+    "time": "5:00 PM",
+    "result": null,
+    "flamesScore": null,
+    "opponentScore": null,
+    "periodType": null,
+    "tvNetworks": "SNP, SNW, MSGSN",
+    "tvBroadcasts": [
+      {
+        "id": 290,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SNP",
+        "sequenceNumber": 33
+      },
+      {
+        "id": 289,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SNW",
+        "sequenceNumber": 34
+      },
+      {
+        "id": 409,
+        "market": "H",
+        "countryCode": "US",
+        "network": "MSGSN",
+        "sequenceNumber": 411
+      }
+    ],
+    "venue": "Prudential Center",
+    "ticketsLink": null
+  },
+  "2026-03-14": {
+    "id": 2025021051,
+    "date": "2026-03-14T07:00:00.000Z",
+    "isHome": false,
+    "opponent": {
+      "abbrev": "NYI",
+      "name": "Islanders",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/NYI_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NYI_dark.svg"
+    },
+    "gameState": "FUT",
+    "time": "5:00 PM",
+    "result": null,
+    "flamesScore": null,
+    "opponentScore": null,
+    "periodType": null,
+    "tvNetworks": "SNW, MSGSN2",
+    "tvBroadcasts": [
+      {
+        "id": 289,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SNW",
+        "sequenceNumber": 34
+      },
+      {
+        "id": 410,
+        "market": "H",
+        "countryCode": "US",
+        "network": "MSGSN2",
+        "sequenceNumber": 406
+      }
+    ],
+    "venue": "UBS Arena",
+    "ticketsLink": null
+  },
+  "2026-03-16": {
+    "id": 2025021063,
+    "date": "2026-03-16T07:00:00.000Z",
+    "isHome": false,
+    "opponent": {
+      "abbrev": "DET",
+      "name": "Red Wings",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg?season=20252026",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/DET_dark.svg?season=20252026"
+    },
+    "gameState": "FUT",
+    "time": "5:00 PM",
+    "result": null,
+    "flamesScore": null,
+    "opponentScore": null,
+    "periodType": null,
+    "tvNetworks": "Prime, FDSNDET",
+    "tvBroadcasts": [
+      {
+        "id": 548,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "Prime",
+        "sequenceNumber": 105
+      },
+      {
+        "id": 562,
+        "market": "H",
+        "countryCode": "US",
+        "network": "FDSNDET",
+        "sequenceNumber": 282
+      }
+    ],
+    "venue": "Little Caesars Arena",
+    "ticketsLink": null
+  },
+  "2026-03-18": {
+    "id": 2025021081,
+    "date": "2026-03-18T07:00:00.000Z",
+    "isHome": true,
+    "opponent": {
+      "abbrev": "STL",
+      "name": "Blues",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/STL_light.svg?season=20252026",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/STL_dark.svg?season=20252026"
+    },
+    "gameState": "FUT",
+    "time": "7:30 PM",
+    "result": null,
+    "flamesScore": null,
+    "opponentScore": null,
+    "periodType": null,
+    "tvNetworks": "SN1, TVAS, FDSNMW",
+    "tvBroadcasts": [
+      {
+        "id": 284,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SN1",
+        "sequenceNumber": 102
+      },
+      {
+        "id": 281,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "TVAS",
+        "sequenceNumber": 109
+      },
+      {
+        "id": 566,
+        "market": "A",
+        "countryCode": "US",
+        "network": "FDSNMW",
+        "sequenceNumber": 201
+      }
+    ],
+    "venue": "Scotiabank Saddledome",
+    "ticketsLink": "https://www.ticketmaster.ca/event/110062F6D2274FFE?brand=calgaryflames&artistid=805907&wt.mc_id=NHL_TEAM_CGY_SCHEDULE_GM33&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_CGY&utm_content=SCHEDULE_GM33"
+  },
+  "2026-03-20": {
+    "id": 2025021097,
+    "date": "2026-03-20T07:00:00.000Z",
+    "isHome": true,
+    "opponent": {
+      "abbrev": "FLA",
+      "name": "Panthers",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/FLA_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/FLA_dark.svg"
+    },
+    "gameState": "FUT",
+    "time": "7:00 PM",
+    "result": null,
+    "flamesScore": null,
+    "opponentScore": null,
+    "periodType": null,
+    "tvNetworks": "SNW, SN360, TVAS, SCRIPPS",
+    "tvBroadcasts": [
+      {
+        "id": 289,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SNW",
+        "sequenceNumber": 34
+      },
+      {
+        "id": 283,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SN360",
+        "sequenceNumber": 103
+      },
+      {
+        "id": 281,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "TVAS",
+        "sequenceNumber": 109
+      },
+      {
+        "id": 521,
+        "market": "A",
+        "countryCode": "US",
+        "network": "SCRIPPS",
+        "sequenceNumber": 657
+      }
+    ],
+    "venue": "Scotiabank Saddledome",
+    "ticketsLink": "https://www.ticketmaster.ca/event/110062F6D22A5003?brand=calgaryflames&artistid=805907&wt.mc_id=NHL_TEAM_CGY_SCHEDULE_GM34&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_CGY&utm_content=SCHEDULE_GM34"
+  },
+  "2026-03-22": {
+    "id": 2025021116,
+    "date": "2026-03-22T07:00:00.000Z",
+    "isHome": true,
+    "opponent": {
+      "abbrev": "TBL",
+      "name": "Lightning",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/TBL_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/TBL_dark.svg"
+    },
+    "gameState": "FUT",
+    "time": "6:00 PM",
+    "result": null,
+    "flamesScore": null,
+    "opponentScore": null,
+    "periodType": null,
+    "tvNetworks": "SNW, The Spot",
+    "tvBroadcasts": [
+      {
+        "id": 289,
+        "market": "H",
+        "countryCode": "CA",
+        "network": "SNW",
+        "sequenceNumber": 34
+      },
+      {
+        "id": 581,
+        "market": "A",
+        "countryCode": "US",
+        "network": "The Spot",
+        "sequenceNumber": 211
+      }
+    ],
+    "venue": "Scotiabank Saddledome",
+    "ticketsLink": "https://www.ticketmaster.ca/event/110062F6D22C5005?brand=calgaryflames&artistid=805907&wt.mc_id=NHL_TEAM_CGY_SCHEDULE_GM35&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_CGY&utm_content=SCHEDULE_GM35"
+  },
+  "2026-03-24": {
+    "id": 2025021133,
+    "date": "2026-03-24T07:00:00.000Z",
+    "isHome": true,
+    "opponent": {
+      "abbrev": "LAK",
+      "name": "Kings",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/LAK_dark.svg"
+    },
+    "gameState": "FUT",
+    "time": "7:00 PM",
+    "result": null,
+    "flamesScore": null,
+    "opponentScore": null,
+    "periodType": null,
+    "tvNetworks": "SNW, FDSNW",
+    "tvBroadcasts": [
+      {
+        "id": 289,
+        "market": "H",
+        "countryCode": "CA",
+        "network": "SNW",
+        "sequenceNumber": 34
+      },
+      {
+        "id": 564,
+        "market": "A",
+        "countryCode": "US",
+        "network": "FDSNW",
+        "sequenceNumber": 288
+      }
+    ],
+    "venue": "Scotiabank Saddledome",
+    "ticketsLink": "https://www.ticketmaster.ca/event/110062F6D22F5009?brand=calgaryflames&artistid=805907&wt.mc_id=NHL_TEAM_CGY_SCHEDULE_GM36&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_CGY&utm_content=SCHEDULE_GM36"
+  },
+  "2026-03-26": {
+    "id": 2025021147,
+    "date": "2026-03-26T07:00:00.000Z",
+    "isHome": true,
+    "opponent": {
+      "abbrev": "ANA",
+      "name": "Ducks",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/ANA_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/ANA_dark.svg"
+    },
+    "gameState": "FUT",
+    "time": "7:00 PM",
+    "result": null,
+    "flamesScore": null,
+    "opponentScore": null,
+    "periodType": null,
+    "tvNetworks": "SNW, Victory+, KCOP-13",
+    "tvBroadcasts": [
+      {
+        "id": 289,
+        "market": "H",
+        "countryCode": "CA",
+        "network": "SNW",
+        "sequenceNumber": 34
+      },
+      {
+        "id": 553,
+        "market": "A",
+        "countryCode": "US",
+        "network": "Victory+",
+        "sequenceNumber": 382
+      },
+      {
+        "id": 219,
+        "market": "A",
+        "countryCode": "US",
+        "network": "KCOP-13",
+        "sequenceNumber": 656
+      }
+    ],
+    "venue": "Scotiabank Saddledome",
+    "ticketsLink": "https://www.ticketmaster.ca/event/110062F6D232502B?brand=calgaryflames&artistid=805907&wt.mc_id=NHL_TEAM_CGY_SCHEDULE_GM37&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_CGY&utm_content=SCHEDULE_GM37"
+  },
+  "2026-03-28": {
+    "id": 2025021165,
+    "date": "2026-03-28T07:00:00.000Z",
+    "isHome": true,
+    "opponent": {
+      "abbrev": "VAN",
+      "name": "Canucks",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/VAN_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/VAN_dark.svg"
+    },
+    "gameState": "FUT",
+    "time": "8:00 PM",
+    "result": null,
+    "flamesScore": null,
+    "opponentScore": null,
+    "periodType": null,
+    "tvNetworks": "CBC, CITY, SN",
+    "tvBroadcasts": [
+      {
+        "id": 4,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "CBC",
+        "sequenceNumber": 25
+      },
+      {
+        "id": 286,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "CITY",
+        "sequenceNumber": 26
+      },
+      {
+        "id": 282,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SN",
+        "sequenceNumber": 101
+      }
+    ],
+    "venue": "Scotiabank Saddledome",
+    "ticketsLink": "https://www.ticketmaster.ca/event/110062F6D234502D?brand=calgaryflames&artistid=805907&wt.mc_id=NHL_TEAM_CGY_SCHEDULE_GM38&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_CGY&utm_content=SCHEDULE_GM38"
+  },
+  "2026-03-30": {
+    "id": 2025021174,
+    "date": "2026-03-30T07:00:00.000Z",
+    "isHome": false,
+    "opponent": {
+      "abbrev": "COL",
+      "name": "Avalanche",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/COL_dark.svg"
+    },
+    "gameState": "FUT",
+    "time": "6:30 PM",
+    "result": null,
+    "flamesScore": null,
+    "opponentScore": null,
+    "periodType": null,
+    "tvNetworks": "Prime, ALT",
+    "tvBroadcasts": [
+      {
+        "id": 548,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "Prime",
+        "sequenceNumber": 105
+      },
+      {
+        "id": 2,
+        "market": "H",
+        "countryCode": "US",
+        "network": "ALT",
+        "sequenceNumber": 385
+      }
+    ],
+    "venue": "Ball Arena",
+    "ticketsLink": null
+  },
+  "2026-04-02": {
+    "id": 2025021201,
+    "date": "2026-04-02T07:00:00.000Z",
+    "isHome": false,
+    "opponent": {
+      "abbrev": "VGK",
+      "name": "Golden Knights",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/VGK_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/VGK_dark.svg"
+    },
+    "gameState": "FUT",
+    "time": "8:00 PM",
+    "result": null,
+    "flamesScore": null,
+    "opponentScore": null,
+    "periodType": null,
+    "tvNetworks": "SNE, SNO, SN1, SCRIPPS",
+    "tvBroadcasts": [
+      {
+        "id": 287,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SNE",
+        "sequenceNumber": 30
+      },
+      {
+        "id": 288,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SNO",
+        "sequenceNumber": 31
+      },
+      {
+        "id": 284,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SN1",
+        "sequenceNumber": 102
+      },
+      {
+        "id": 521,
+        "market": "H",
+        "countryCode": "US",
+        "network": "SCRIPPS",
+        "sequenceNumber": 657
+      }
+    ],
+    "venue": "T-Mobile Arena",
+    "ticketsLink": null
+  },
+  "2026-04-04": {
+    "id": 2025021219,
+    "date": "2026-04-04T07:00:00.000Z",
+    "isHome": false,
+    "opponent": {
+      "abbrev": "ANA",
+      "name": "Ducks",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/ANA_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/ANA_dark.svg"
+    },
+    "gameState": "FUT",
+    "time": "8:00 PM",
+    "result": null,
+    "flamesScore": null,
+    "opponentScore": null,
+    "periodType": null,
+    "tvNetworks": "CITY, SN1, KTTV, Victory+",
+    "tvBroadcasts": [
+      {
+        "id": 286,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "CITY",
+        "sequenceNumber": 26
+      },
+      {
+        "id": 284,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SN1",
+        "sequenceNumber": 102
+      },
+      {
+        "id": 557,
+        "market": "H",
+        "countryCode": "US",
+        "network": "KTTV",
+        "sequenceNumber": 350
+      },
+      {
+        "id": 553,
+        "market": "H",
+        "countryCode": "US",
+        "network": "Victory+",
+        "sequenceNumber": 382
+      }
+    ],
+    "venue": "Honda Center",
+    "ticketsLink": null
+  },
+  "2026-04-07": {
+    "id": 2025021239,
+    "date": "2026-04-07T07:00:00.000Z",
+    "isHome": false,
+    "opponent": {
+      "abbrev": "DAL",
+      "name": "Stars",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/DAL_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/DAL_dark.svg"
+    },
+    "gameState": "FUT",
+    "time": "6:00 PM",
+    "result": null,
+    "flamesScore": null,
+    "opponentScore": null,
+    "periodType": null,
+    "tvNetworks": "SNW, Victory+",
+    "tvBroadcasts": [
+      {
+        "id": 289,
+        "market": "A",
+        "countryCode": "CA",
+        "network": "SNW",
+        "sequenceNumber": 34
+      },
+      {
+        "id": 553,
+        "market": "H",
+        "countryCode": "US",
+        "network": "Victory+",
+        "sequenceNumber": 382
+      }
+    ],
+    "venue": "American Airlines Center",
+    "ticketsLink": null
+  },
+  "2026-04-09": {
+    "id": 2025021256,
+    "date": "2026-04-09T07:00:00.000Z",
+    "isHome": false,
+    "opponent": {
+      "abbrev": "COL",
+      "name": "Avalanche",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/COL_dark.svg"
+    },
+    "gameState": "FUT",
+    "time": "7:00 PM",
+    "result": null,
+    "flamesScore": null,
+    "opponentScore": null,
+    "periodType": null,
+    "tvNetworks": "SNW, KUSA, ALT, KTVD",
+    "tvBroadcasts": [
+      {
+        "id": 289,
+        "market": "A",
+        "countryCode": "CA",
+        "network": "SNW",
+        "sequenceNumber": 34
+      },
+      {
+        "id": 555,
+        "market": "H",
+        "countryCode": "US",
+        "network": "KUSA",
+        "sequenceNumber": 352
+      },
+      {
+        "id": 2,
+        "market": "H",
+        "countryCode": "US",
+        "network": "ALT",
+        "sequenceNumber": 385
+      },
+      {
+        "id": 336,
+        "market": "H",
+        "countryCode": "US",
+        "network": "KTVD",
+        "sequenceNumber": 623
+      }
+    ],
+    "venue": "Ball Arena",
+    "ticketsLink": null
+  },
+  "2026-04-11": {
+    "id": 2025021273,
+    "date": "2026-04-11T07:00:00.000Z",
+    "isHome": false,
+    "opponent": {
+      "abbrev": "SEA",
+      "name": "Kraken",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/SEA_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/SEA_dark.svg"
+    },
+    "gameState": "FUT",
+    "time": "5:00 PM",
+    "result": null,
+    "flamesScore": null,
+    "opponentScore": null,
+    "periodType": null,
+    "tvNetworks": "SNW, KHN/Prime, KING 5, KONG",
+    "tvBroadcasts": [
+      {
+        "id": 289,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SNW",
+        "sequenceNumber": 34
+      },
+      {
+        "id": 554,
+        "market": "H",
+        "countryCode": "US",
+        "network": "KHN/Prime",
+        "sequenceNumber": 348
+      },
+      {
+        "id": 552,
+        "market": "H",
+        "countryCode": "US",
+        "network": "KING 5",
+        "sequenceNumber": 349
+      },
+      {
+        "id": 388,
+        "market": "H",
+        "countryCode": "US",
+        "network": "KONG",
+        "sequenceNumber": 654
+      }
+    ],
+    "venue": "Climate Pledge Arena",
+    "ticketsLink": null
+  },
+  "2026-04-12": {
+    "id": 2025021281,
+    "date": "2026-04-12T07:00:00.000Z",
+    "isHome": true,
+    "opponent": {
+      "abbrev": "UTA",
+      "name": "Mammoth",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/UTA_light.svg?season=20252026",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/UTA_dark.svg?season=20252026"
+    },
+    "gameState": "FUT",
+    "time": "7:00 PM",
+    "result": null,
+    "flamesScore": null,
+    "opponentScore": null,
+    "periodType": null,
+    "tvNetworks": "SN, Utah16",
+    "tvBroadcasts": [
+      {
+        "id": 282,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SN",
+        "sequenceNumber": 101
+      },
+      {
+        "id": 558,
+        "market": "A",
+        "countryCode": "US",
+        "network": "Utah16",
+        "sequenceNumber": 381
+      }
+    ],
+    "venue": "Scotiabank Saddledome",
+    "ticketsLink": "https://www.ticketmaster.ca/event/110062F6D2375030?brand=calgaryflames&artistid=805907&wt.mc_id=NHL_TEAM_CGY_SCHEDULE_GM39&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_CGY&utm_content=SCHEDULE_GM39"
+  },
+  "2026-04-14": {
+    "id": 2025021298,
+    "date": "2026-04-14T07:00:00.000Z",
+    "isHome": true,
+    "opponent": {
+      "abbrev": "COL",
+      "name": "Avalanche",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/COL_dark.svg"
+    },
+    "gameState": "FUT",
+    "time": "7:00 PM",
+    "result": null,
+    "flamesScore": null,
+    "opponentScore": null,
+    "periodType": null,
+    "tvNetworks": "SNW, KUSA, ALT, KTVD",
+    "tvBroadcasts": [
+      {
+        "id": 289,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SNW",
+        "sequenceNumber": 34
+      },
+      {
+        "id": 555,
+        "market": "A",
+        "countryCode": "US",
+        "network": "KUSA",
+        "sequenceNumber": 352
+      },
+      {
+        "id": 2,
+        "market": "A",
+        "countryCode": "US",
+        "network": "ALT",
+        "sequenceNumber": 385
+      },
+      {
+        "id": 336,
+        "market": "A",
+        "countryCode": "US",
+        "network": "KTVD",
+        "sequenceNumber": 623
+      }
+    ],
+    "venue": "Scotiabank Saddledome",
+    "ticketsLink": "https://www.ticketmaster.ca/event/110062F6D23A5035?brand=calgaryflames&artistid=805907&wt.mc_id=NHL_TEAM_CGY_SCHEDULE_GM40&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_CGY&utm_content=SCHEDULE_GM40"
+  },
+  "2026-04-16": {
+    "id": 2025021310,
+    "date": "2026-04-16T07:00:00.000Z",
+    "isHome": true,
+    "opponent": {
+      "abbrev": "LAK",
+      "name": "Kings",
+      "logo": "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg",
+      "darkLogo": "https://assets.nhle.com/logos/nhl/svg/LAK_dark.svg"
+    },
+    "gameState": "FUT",
+    "time": "7:00 PM",
+    "result": null,
+    "flamesScore": null,
+    "opponentScore": null,
+    "periodType": null,
+    "tvNetworks": "SN1, FDSNW",
+    "tvBroadcasts": [
+      {
+        "id": 284,
+        "market": "N",
+        "countryCode": "CA",
+        "network": "SN1",
+        "sequenceNumber": 102
+      },
+      {
+        "id": 564,
+        "market": "A",
+        "countryCode": "US",
+        "network": "FDSNW",
+        "sequenceNumber": 288
+      }
+    ],
+    "venue": "Scotiabank Saddledome",
+    "ticketsLink": "https://www.ticketmaster.ca/event/110062F6D23C5037?brand=calgaryflames&artistid=805907&wt.mc_id=NHL_TEAM_CGY_SCHEDULE_GM41&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_TEAM_CGY&utm_content=SCHEDULE_GM41"
+  }
+}

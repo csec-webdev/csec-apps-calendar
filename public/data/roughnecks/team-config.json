@@ -1,0 +1,17 @@
+{
+  "championData": {
+    "apiBaseUrl": "https://api.nll.championdata.io",
+    "authDomain": "https://championdata.au.auth0.com",
+    "audience": "https://api.nll.championdata.io/",
+    "clientId": "your-client-id",
+    "clientSecret": "your-client-secret",
+    "leagueId": "1",
+    "levelId": "1",
+    "seasonId": "225",
+    "teamId": "524",
+    "teamCode": "CGY"
+  },
+  "lastFetchedSeasons": ["225"],
+  "lastUpdated": "2025-01-09T00:00:00.000Z",
+  "comment": "Champion Data API via Auth0. Calgary Roughnecks team ID: 524, Code: CGY. Season 225 = 2025-26. Replace clientId and clientSecret with actual values."
+}

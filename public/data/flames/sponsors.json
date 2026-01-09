@@ -1,0 +1,95 @@
+{
+  "comment": "Sponsor data for game modals. Use game ID or date (YYYY-MM-DD) as key.",
+  "sponsors": {
+    "2025-11-22": {
+      "label": "Presented By:",
+      "logo": "https://dxsxmx0pdav1a.cloudfront.net/sponsors/1763766163758.png",
+      "text": null
+    },
+    "2026-01-23": {
+      "label": "Presented By:",
+      "logo": "https://dxsxmx0pdav1a.cloudfront.net/sponsors/1763766276126.png",
+      "text": null
+    },
+    "2025-10-03": {
+      "label": "Presented By:",
+      "logo": "https://dxsxmx0pdav1a.cloudfront.net/sponsors/1763768773905.png",
+      "text": null
+    },
+    "2025-10-26": {
+      "label": "Presented By:",
+      "logo": "https://dxsxmx0pdav1a.cloudfront.net/sponsors/1763771790845.png",
+      "text": null
+    },
+    "2025-12-20": {
+      "label": "Presented By:",
+      "logo": "https://dxsxmx0pdav1a.cloudfront.net/sponsors/1763772980496.png",
+      "text": null
+    },
+    "2026-01-17": {
+      "label": "Presented By:",
+      "logo": "https://dxsxmx0pdav1a.cloudfront.net/sponsors/1763773093913.jpeg",
+      "text": null
+    },
+    "2026-01-21": {
+      "label": "Presented By:",
+      "logo": "https://dxsxmx0pdav1a.cloudfront.net/sponsors/1763773601595.jpg",
+      "text": null
+    },
+    "2026-01-31": {
+      "label": "Presented By:",
+      "logo": "https://dxsxmx0pdav1a.cloudfront.net/sponsors/1763773642186.png",
+      "text": null
+    },
+    "2026-02-04": {
+      "label": "Presented By:",
+      "logo": "https://dxsxmx0pdav1a.cloudfront.net/sponsors/1763773718103.avif",
+      "text": null
+    },
+    "2026-03-05": {
+      "label": "Presented By:",
+      "logo": "https://dxsxmx0pdav1a.cloudfront.net/sponsors/1763773771602.png",
+      "text": null
+    },
+    "2026-03-22": {
+      "label": "Presented By:",
+      "logo": "https://dxsxmx0pdav1a.cloudfront.net/sponsors/1763773808500.png",
+      "text": null
+    },
+    "2026-03-28": {
+      "label": "Presented By:",
+      "logo": "https://dxsxmx0pdav1a.cloudfront.net/sponsors/1763773902213.jpg",
+      "text": null
+    },
+    "2025-12-18": {
+      "label": "Presented By:",
+      "logo": "https://dxsxmx0pdav1a.cloudfront.net/sponsors/1764800936117.jpeg",
+      "text": null
+    },
+    "2026-03-24": {
+      "label": "Presented By:",
+      "logo": "https://dxsxmx0pdav1a.cloudfront.net/sponsors/1764801428578.jpeg",
+      "text": null
+    },
+    "2025-12-04": {
+      "label": "Presented By:",
+      "logo": "https://dxsxmx0pdav1a.cloudfront.net/sponsors/1764801814129.png",
+      "text": null
+    },
+    "2025-12-27": {
+      "label": "Presented By:",
+      "logo": "https://dxsxmx0pdav1a.cloudfront.net/sponsors/1764801862072.jpeg",
+      "text": null
+    },
+    "2026-01-25": {
+      "label": "Presented By:",
+      "logo": "https://dxsxmx0pdav1a.cloudfront.net/sponsors/1764801900389.png",
+      "text": null
+    },
+    "2026-01-03": {
+      "label": "Presented By:",
+      "logo": "https://dxsxmx0pdav1a.cloudfront.net/sponsors/1763773093913.jpeg",
+      "text": null
+    }
+  }
+}
