@@ -1,63 +1,126 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
+    <div className="flex min-h-screen items-center justify-center bg-gradient-to-br from-zinc-50 to-zinc-100">
+      <main className="w-full max-w-4xl px-6 py-16">
+        {/* Header with CSEC Logo */}
+        <div className="text-center mb-12">
+          <Image
+            src="https://d37ygqmmhd03wh.cloudfront.net/assets/csec_primary.svg"
+            alt="Calgary Sports and Entertainment Corporation"
+            width={400}
+            height={88}
+            priority
+            className="mx-auto mb-6"
+          />
+          <h1 className="text-4xl font-bold text-zinc-900 mb-3">
+            CSEC Apps Calendar
           </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+          <p className="text-lg text-zinc-600 max-w-2xl mx-auto">
+            Multi-team calendar management system for Calgary Flames, Hitmen, Wranglers, Roughnecks, and Stampeders
           </p>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
+
+        {/* Quick Action Cards */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+          <Link
+            href="/admin"
+            className="group bg-white rounded-xl shadow-sm hover:shadow-md transition-all p-6 border border-zinc-200 hover:border-zinc-300"
+          >
+            <div className="flex items-center gap-4 mb-3">
+              <div className="w-12 h-12 bg-red-600 rounded-lg flex items-center justify-center text-white font-bold text-xl">
+                🏒
+              </div>
+              <h2 className="text-2xl font-semibold text-zinc-900 group-hover:text-red-600 transition-colors">
+                Admin Dashboard
+              </h2>
+            </div>
+            <p className="text-zinc-600">
+              Manage all team schedules, fetch latest games, and configure settings
+            </p>
+          </Link>
+
           <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+            href="https://d37ygqmmhd03wh.cloudfront.net/flames.html"
             target="_blank"
             rel="noopener noreferrer"
+            className="group bg-white rounded-xl shadow-sm hover:shadow-md transition-all p-6 border border-zinc-200 hover:border-zinc-300"
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
+            <div className="flex items-center gap-4 mb-3">
+              <div className="w-12 h-12 bg-red-600 rounded-lg flex items-center justify-center text-white font-bold text-xl">
+                🔥
+              </div>
+              <h2 className="text-2xl font-semibold text-zinc-900 group-hover:text-red-600 transition-colors">
+                View Calendars
+              </h2>
+            </div>
+            <p className="text-zinc-600">
+              See live public calendars for all CSEC teams
+            </p>
           </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+        </div>
+
+        {/* Teams Grid */}
+        <div className="bg-white rounded-xl shadow-sm p-8 border border-zinc-200 mb-8">
+          <h3 className="text-xl font-semibold text-zinc-900 mb-6">Managed Teams</h3>
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-6">
+            <div className="text-center">
+              <div className="w-16 h-16 mx-auto mb-2 bg-red-600 rounded-full flex items-center justify-center text-white font-bold">
+                NHL
+              </div>
+              <p className="text-sm font-medium text-zinc-900">Calgary Flames</p>
+            </div>
+            <div className="text-center">
+              <div className="w-16 h-16 mx-auto mb-2 bg-red-600 rounded-full flex items-center justify-center text-white font-bold">
+                WHL
+              </div>
+              <p className="text-sm font-medium text-zinc-900">Calgary Hitmen</p>
+            </div>
+            <div className="text-center">
+              <div className="w-16 h-16 mx-auto mb-2 bg-red-600 rounded-full flex items-center justify-center text-white font-bold">
+                AHL
+              </div>
+              <p className="text-sm font-medium text-zinc-900">Calgary Wranglers</p>
+            </div>
+            <div className="text-center">
+              <div className="w-16 h-16 mx-auto mb-2 bg-teal-600 rounded-full flex items-center justify-center text-white font-bold">
+                NLL
+              </div>
+              <p className="text-sm font-medium text-zinc-900">Calgary Roughnecks</p>
+            </div>
+            <div className="text-center">
+              <div className="w-16 h-16 mx-auto mb-2 bg-red-700 rounded-full flex items-center justify-center text-white font-bold">
+                CFL
+              </div>
+              <p className="text-sm font-medium text-zinc-900">Calgary Stampeders</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Features */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+          <div className="bg-white rounded-lg p-4 border border-zinc-200 text-center">
+            <div className="text-2xl mb-2">🔄</div>
+            <p className="text-sm font-medium text-zinc-900">Automated Updates</p>
+            <p className="text-xs text-zinc-600 mt-1">Hourly schedule refresh</p>
+          </div>
+          <div className="bg-white rounded-lg p-4 border border-zinc-200 text-center">
+            <div className="text-2xl mb-2">🎯</div>
+            <p className="text-sm font-medium text-zinc-900">Live Scores</p>
+            <p className="text-xs text-zinc-600 mt-1">Real-time game results</p>
+          </div>
+          <div className="bg-white rounded-lg p-4 border border-zinc-200 text-center">
+            <div className="text-2xl mb-2">📱</div>
+            <p className="text-sm font-medium text-zinc-900">Mobile Ready</p>
+            <p className="text-xs text-zinc-600 mt-1">Deep linking support</p>
+          </div>
+        </div>
+
+        {/* Footer */}
+        <div className="text-center text-sm text-zinc-500">
+          <p>Built with ❤️ for Calgary Sports and Entertainment Corporation</p>
         </div>
       </main>
     </div>
