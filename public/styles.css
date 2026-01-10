@@ -1264,3 +1264,29 @@ body.team-stampeders .opponent-logo {
         height: 43px;
     }
 }
+
+/* Move View List button to bottom for teams without Add to Calendar button */
+body.team-hitmen .view-list-btn,
+body.team-wranglers .view-list-btn,
+body.team-roughnecks .view-list-btn,
+body.team-stampeders .view-list-btn {
+    bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    body.team-hitmen .view-list-btn,
+    body.team-wranglers .view-list-btn,
+    body.team-roughnecks .view-list-btn,
+    body.team-stampeders .view-list-btn {
+        bottom: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    body.team-hitmen .view-list-btn,
+    body.team-wranglers .view-list-btn,
+    body.team-roughnecks .view-list-btn,
+    body.team-stampeders .view-list-btn {
+        bottom: 10px;
+    }
+}
