@@ -45,6 +45,70 @@ function getActiveSeasonIds(seasons: HockeyTechSeason[]): string[] {
   return activeSeasons.map(s => s.season_id);
 }
 
+// Map city names to team nicknames for WHL and AHL
+const TEAM_NICKNAMES: Record<string, string> = {
+  // WHL Teams
+  'Calgary': 'Hitmen',
+  'Edmonton': 'Oil Kings',
+  'Red Deer': 'Rebels',
+  'Lethbridge': 'Hurricanes',
+  'Medicine Hat': 'Tigers',
+  'Moose Jaw': 'Warriors',
+  'Prince Albert': 'Raiders',
+  'Regina': 'Pats',
+  'Saskatoon': 'Blades',
+  'Swift Current': 'Broncos',
+  'Brandon': 'Wheat Kings',
+  'Winnipeg': 'ICE',
+  'Kamloops': 'Blazers',
+  'Kelowna': 'Rockets',
+  'Prince George': 'Cougars',
+  'Vancouver': 'Giants',
+  'Victoria': 'Royals',
+  'Everett': 'Silvertips',
+  'Portland': 'Winterhawks',
+  'Seattle': 'Thunderbirds',
+  'Spokane': 'Chiefs',
+  'Tri-City': 'Americans',
+  'Wenatchee': 'Wild',
+  // AHL Teams
+  'Abbotsford': 'Canucks',
+  'Bakersfield': 'Condors',
+  'Belleville': 'Senators',
+  'Bridgeport': 'Islanders',
+  'Charlotte': 'Checkers',
+  'Chicago': 'Wolves',
+  'Cleveland': 'Monsters',
+  'Coachella Valley': 'Firebirds',
+  'Colorado': 'Eagles',
+  'Grand Rapids': 'Griffins',
+  'Hartford': 'Wolf Pack',
+  'Henderson': 'Silver Knights',
+  'Hershey': 'Bears',
+  'Iowa': 'Wild',
+  'Laval': 'Rocket',
+  'Lehigh Valley': 'Phantoms',
+  'Manitoba': 'Moose',
+  'Milwaukee': 'Admirals',
+  'Ontario': 'Reign',
+  'Providence': 'Bruins',
+  'Rochester': 'Americans',
+  'Rockford': 'IceHogs',
+  'San Diego': 'Gulls',
+  'San Jose': 'Barracuda',
+  'Springfield': 'Thunderbirds',
+  'Syracuse': 'Crunch',
+  'Texas': 'Stars',
+  'Toronto': 'Marlies',
+  'Tucson': 'Roadrunners',
+  'Utica': 'Comets',
+  'Wilkes-Barre/Scranton': 'Penguins'
+};
+
+function getTeamNickname(cityName: string): string {
+  return TEAM_NICKNAMES[cityName] || cityName;
+}
+
 export async function POST(req: Request, { params }: { params: Params }) {
   await requireRole();
   const { teamKey } = await params;
@@ -421,7 +485,7 @@ function processHockeyTechSchedule(apiData: any, league: string): Record<string,
       isHome,
       opponent: {
         abbrev: opponentCity.substring(0, 3).toUpperCase(),
-        name: opponentCity,
+        name: getTeamNickname(opponentCity),
         logo: opponentLogo,
         darkLogo: opponentLogo,
       },
