@@ -514,7 +514,7 @@ export function TeamsClient() {
                       <div className="flex-1">
                         <div className="flex items-center gap-3 mb-2">
                           <span className="font-semibold text-gray-900">
-                            {new Date(game.date).toLocaleDateString("en-US", {
+                            {new Date(game.date + 'T12:00:00').toLocaleDateString("en-US", {
                               weekday: "short",
                               month: "short",
                               day: "numeric",
