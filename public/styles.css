@@ -1206,13 +1206,13 @@ body {
     }
 }
 
-/* Team-specific logo sizing - reduce by 20% for all teams except Flames */
+/* Team-specific logo sizing - reduce by 36% total for all teams except Flames */
 body.team-hitmen .opponent-logo,
 body.team-wranglers .opponent-logo,
 body.team-roughnecks .opponent-logo,
 body.team-stampeders .opponent-logo {
-    width: 48px;
-    height: 48px;
+    width: 38px;
+    height: 38px;
 }
 
 @media (min-width: 768px) {
@@ -1220,8 +1220,8 @@ body.team-stampeders .opponent-logo {
     body.team-wranglers .opponent-logo,
     body.team-roughnecks .opponent-logo,
     body.team-stampeders .opponent-logo {
-        width: 56px;
-        height: 56px;
+        width: 45px;
+        height: 45px;
     }
 }
 
@@ -1230,8 +1230,8 @@ body.team-stampeders .opponent-logo {
     body.team-wranglers .opponent-logo,
     body.team-roughnecks .opponent-logo,
     body.team-stampeders .opponent-logo {
-        width: 64px;
-        height: 64px;
+        width: 51px;
+        height: 51px;
     }
 }
 
@@ -1240,8 +1240,8 @@ body.team-stampeders .opponent-logo {
     body.team-wranglers .opponent-logo,
     body.team-roughnecks .opponent-logo,
     body.team-stampeders .opponent-logo {
-        width: 72px;
-        height: 72px;
+        width: 58px;
+        height: 58px;
     }
 }
 
@@ -1250,8 +1250,8 @@ body.team-stampeders .opponent-logo {
     body.team-wranglers .opponent-logo,
     body.team-roughnecks .opponent-logo,
     body.team-stampeders .opponent-logo {
-        width: 36px;
-        height: 36px;
+        width: 29px;
+        height: 29px;
     }
 }
 
@@ -1260,8 +1260,8 @@ body.team-stampeders .opponent-logo {
     body.team-wranglers .opponent-logo,
     body.team-roughnecks .opponent-logo,
     body.team-stampeders .opponent-logo {
-        width: 43px;
-        height: 43px;
+        width: 34px;
+        height: 34px;
     }
 }
 

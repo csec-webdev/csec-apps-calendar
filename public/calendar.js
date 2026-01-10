@@ -557,7 +557,8 @@ function processWHLScheduleData(apiData) {
             }
         } else {
             gameState = 'FUT';
-            gameTime = row.game_status; // e.g., "7:00 pm MST"
+            // Remove timezone abbreviations (MST, MDT, MT) from time
+            gameTime = row.game_status.replace(/\s*(MST|MDT|MT)\s*$/i, '').trim();
         }
         
         // Build opponent logo URL - use our own S3 logos
