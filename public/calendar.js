@@ -557,8 +557,8 @@ function processWHLScheduleData(apiData) {
             }
         } else {
             gameState = 'FUT';
-            // Remove timezone abbreviations (MST, MDT, MT) from time
-            gameTime = row.game_status.replace(/\s*(MST|MDT|MT)\s*$/i, '').trim();
+            // Remove all timezone abbreviations from time
+            gameTime = row.game_status.replace(/\s*(MST|MDT|MT|PST|PDT|PT|CST|CDT|CT|EST|EDT|ET|ST|DT)\s*$/i, '').trim();
         }
         
         // Build opponent logo URL - use our own S3 logos
@@ -755,8 +755,8 @@ function formatTimeMT(utcDate) {
     };
     
     const mtTimeString = date.toLocaleString('en-US', options);
-    // Return time without "MT" suffix
-    return mtTimeString;
+    // Remove any timezone abbreviations that might be added by browser
+    return mtTimeString.replace(/\s*(MST|MDT|MT|PST|PDT|PT|CST|CDT|CT|EST|EDT|ET|ST|DT)\s*$/i, '').trim();
 }
 
 // Setup swipe gestures for month navigation
@@ -1043,7 +1043,8 @@ function renderCalendar() {
             } else if (game.time) {
                 const time = document.createElement('div');
                 time.className = 'game-time';
-                time.textContent = game.time;
+                // Remove all timezone abbreviations from display
+                time.textContent = game.time.replace(/\s*(MST|MDT|MT|PST|PDT|PT|CST|CDT|CT|EST|EDT|ET|ST|DT)\s*$/i, '').trim();
                 gameInfo.appendChild(time);
             }
             
@@ -1330,8 +1331,8 @@ function openGameModal(game) {
         summaryBtn.style.display = 'inline-block';
         summaryBtn.href = getGameDetailUrl(game.id);
     } else if (game.time) {
-        // Upcoming or live game - show time
-        document.getElementById('modalGameTime').textContent = game.time;
+        // Upcoming or live game - show time (remove timezone abbreviations)
+        document.getElementById('modalGameTime').textContent = game.time.replace(/\s*(MST|MDT|MT|PST|PDT|PT|CST|CDT|CT|EST|EDT|ET|ST|DT)\s*$/i, '').trim();
         statusContainer.style.display = 'none';
         timeContainer.style.display = 'block';
         
