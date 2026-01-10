@@ -16,6 +16,11 @@ export const authOptions: NextAuthOptions = {
     }),
   ],
   session: { strategy: "jwt" },
+  theme: {
+    colorScheme: "light",
+    brandColor: "#CE1126", // CSEC Red
+    logo: "https://d37ygqmmhd03wh.cloudfront.net/assets/csec_primary.svg",
+  },
   callbacks: {
     async signIn({ profile, account }) {
       const allowedTenant = process.env.ALLOWED_TENANT_ID;
