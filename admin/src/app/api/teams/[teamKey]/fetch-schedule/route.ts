@@ -3,74 +3,9 @@ import { requireRole } from "@/lib/requireAdmin";
 import { putJson, getJson } from "@/lib/s3";
 import { TEAMS } from "@/lib/schemas";
 import { invalidateCache } from "@/lib/cloudfront";
+import { getChampionDataAccessToken } from "@/lib/championDataAuth";
 
 type Params = Promise<{ teamKey: string }>;
-
-// OAuth2 token cache (in-memory, could be moved to Redis for production)
-const tokenCache = new Map<string, { token: string; expiresAt: number }>();
-
-/**
- * Get OAuth2 access token for Champion Data API via Auth0
- * Uses Client Credentials flow with audience parameter
- */
-async function getChampionDataAccessToken(
-  authDomain: string,
-  audience: string,
-  clientId: string,
-  clientSecret: string
-): Promise<string> {
-  const cacheKey = `${authDomain}:${clientId}`;
-  
-  // Check cache first
-  const cached = tokenCache.get(cacheKey);
-  if (cached && cached.expiresAt > Date.now()) {
-    console.log("Using cached Auth0 token");
-    return cached.token;
-  }
-
-  // Request new token from Auth0
-  const tokenUrl = `${authDomain}/oauth/token`;
-  console.log(`Requesting Auth0 token from: ${tokenUrl}`);
-  
-  // Auth0 requires form data with audience parameter
-  const formData = new URLSearchParams({
-    grant_type: "client_credentials",
-    client_id: clientId,
-    client_secret: clientSecret,
-    audience: audience,
-  });
-  
-  const response = await fetch(tokenUrl, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/x-www-form-urlencoded",
-    },
-    body: formData.toString(),
-  });
-
-  if (!response.ok) {
-    const errorText = await response.text();
-    throw new Error(`Auth0 token request failed: ${response.statusText} - ${errorText}`);
-  }
-
-  const data = await response.json();
-  
-  if (!data.access_token) {
-    throw new Error("No access_token in Auth0 response");
-  }
-
-  // Cache the token (expires in seconds, default to 24 hours if not specified)
-  const expiresIn = data.expires_in || 86400;
-  const expiresAt = Date.now() + (expiresIn - 300) * 1000; // Refresh 5 minutes early
-  
-  tokenCache.set(cacheKey, {
-    token: data.access_token,
-    expiresAt,
-  });
-
-  console.log(`Auth0 token acquired, expires in ${expiresIn} seconds`);
-  return data.access_token;
-}
 
 // HockeyTech Season API response type
 interface HockeyTechSeason {

@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { TEAMS } from "@/lib/schemas";
 import { putJson, getJson } from "@/lib/s3";
 import { invalidateCache } from "@/lib/cloudfront";
+import { getChampionDataAccessToken } from "@/lib/championDataAuth";
 
 /**
  * Automated schedule fetcher - runs hourly via cron
@@ -119,27 +120,8 @@ async function fetchTeamSchedule(teamKey: string) {
         throw new Error("Missing Champion Data configuration");
       }
 
-      // Get OAuth2 token
-      const tokenUrl = `${authDomain}/oauth/token`;
-      const formData = new URLSearchParams({
-        grant_type: "client_credentials",
-        client_id: clientId,
-        client_secret: clientSecret,
-        audience: audience,
-      });
-      
-      const tokenResponse = await fetch(tokenUrl, {
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: formData.toString(),
-      });
-
-      if (!tokenResponse.ok) {
-        throw new Error("Failed to get Auth0 token");
-      }
-
-      const tokenData = await tokenResponse.json();
-      const accessToken = tokenData.access_token;
+      // Get OAuth2 token (uses S3-backed cache to minimize token requests)
+      const accessToken = await getChampionDataAccessToken(authDomain, audience, clientId, clientSecret);
 
       // Fetch schedule
       const scheduleUrl = `${apiBaseUrl}/v1/leagues/${leagueId}/levels/${levelId}/seasons/${seasonId}/schedule`;
