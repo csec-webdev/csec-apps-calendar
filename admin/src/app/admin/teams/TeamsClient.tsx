@@ -157,8 +157,8 @@ export function TeamsClient() {
         
         // Check for rate limit errors
         if (errorMsg.includes("rate limit") || errorMsg.includes("M2M token requests")) {
-          setFetchCooldown(180); // 3 minute cooldown for rate limits
-          throw new Error("API rate limit reached. Please wait 3 minutes before trying again.");
+          setFetchCooldown(30); // 30 second cooldown for rate limits (token cache should prevent this now)
+          throw new Error("API rate limit reached. The system now uses cached tokens to prevent this. Please wait 30 seconds and try again.");
         }
         
         throw new Error(errorMsg);
@@ -169,8 +169,8 @@ export function TeamsClient() {
         : "";
       showToast(`Fetched ${data.gamesCount} games${seasonInfo}!`, "success");
       
-      // Set cooldown to prevent rapid clicking (30 seconds)
-      setFetchCooldown(30);
+      // Set cooldown to prevent rapid clicking (10 seconds)
+      setFetchCooldown(10);
       setLastFetchTime(Date.now());
       
       // Reload the team data to show the new schedule
