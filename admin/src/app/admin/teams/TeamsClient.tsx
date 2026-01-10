@@ -514,12 +514,16 @@ export function TeamsClient() {
                       <div className="flex-1">
                         <div className="flex items-center gap-3 mb-2">
                           <span className="font-semibold text-gray-900">
-                            {new Date(game.date + 'T12:00:00').toLocaleDateString("en-US", {
-                              weekday: "short",
-                              month: "short",
-                              day: "numeric",
-                              year: "numeric",
-                            })}
+                            {(() => {
+                              // Parse dateKey (YYYY-MM-DD format) at noon to avoid timezone issues
+                              const [year, month, day] = game.dateKey.split('-').map(Number);
+                              return new Date(year, month - 1, day, 12, 0, 0).toLocaleDateString("en-US", {
+                                weekday: "short",
+                                month: "short",
+                                day: "numeric",
+                                year: "numeric",
+                              });
+                            })()}
                           </span>
                           <div className="flex items-center gap-2">
                             <span className="text-gray-600 text-sm">
