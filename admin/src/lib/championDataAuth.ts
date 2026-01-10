@@ -74,7 +74,8 @@ export async function getChampionDataAccessToken(
 
   // Store in S3
   try {
-    const cacheData = await getJson<Record<string, TokenCache>>(TOKEN_CACHE_KEY).catch(() => ({}));
+    const existingCache = await getJson<Record<string, TokenCache>>(TOKEN_CACHE_KEY).catch(() => null);
+    const cacheData: Record<string, TokenCache> = existingCache || {};
     cacheData[cacheKey] = {
       token: data.access_token,
       expiresAt,
