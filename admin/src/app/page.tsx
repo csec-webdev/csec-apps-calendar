@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
+import LoginButton from "./LoginButton";
 
 export default function Home() {
   return (
@@ -16,12 +16,7 @@ export default function Home() {
         <h1 className="text-3xl font-bold text-zinc-900 mb-8">
           CSEC Apps Calendar
         </h1>
-        <Link
-          href="/api/auth/signin/azure-ad?callbackUrl=/admin"
-          className="inline-flex items-center justify-center px-10 py-4 bg-red-600 text-white text-lg font-semibold rounded-lg hover:bg-red-700 hover:scale-105 hover:shadow-xl transition-all duration-200 ease-in-out active:scale-95"
-        >
-          Click To Login
-        </Link>
+        <LoginButton />
       </main>
     </div>
   );
