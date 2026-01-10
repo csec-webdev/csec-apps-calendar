@@ -92,9 +92,9 @@ function getGameDetailUrl(gameId) {
     const urlConfigs = {
         flames: `fr-calgary-flames://open_alliance_webview?id=${gameId}&persona_lookup_key=calgary_flames_nhl&component_lookup_key=nhl_game_detail`,
         hitmen: `fr-calgary-hitmen://open_alliance_webview?id=${gameId}&persona_lookup_key=calgary_hitmen_app&component_lookup_key=chl_game_detail`,
-        roughnecks: `fr-calgary-roughnecks://open_alliance_webview?id=${gameId}&persona_lookup_key=calgary_roughnecks_nll&component_lookup_key=nll_game_detail`,
+        roughnecks: `calgary-roughnecks-fr://open_alliance_webview?id=${gameId}&persona_lookup_key=calgary_roughnecks_nll&component_lookup_key=nll_game_detail`,
         stampeders: `fr-calgary-stampeders://open_alliance_webview?id=${gameId}&persona_lookup_key=calgary_stampeders_cfl&component_lookup_key=cfl_game_detail`,
-        wranglers: `fr-calgary-wranglers://open_alliance_webview?id=${gameId}&persona_lookup_key=calgary_wranglers_ahl&component_lookup_key=ahl_game_detail`,
+        wranglers: `fr-calgary-flames://open_alliance_webview?id=${gameId}&persona_lookup_key=wranglers_ahl&component_lookup_key=ahl_game_detail`,
     };
     return urlConfigs[TEAM_KEY] || urlConfigs.flames;
 }

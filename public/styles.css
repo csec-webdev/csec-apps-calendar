@@ -287,8 +287,8 @@ body {
 }
 
 .opponent-logo {
-    width: 60px;
-    height: 60px;
+    width: 48px;
+    height: 48px;
     object-fit: contain;
     flex-shrink: 0;
     max-width: 100%;
@@ -331,8 +331,8 @@ body {
     }
     
     .opponent-logo {
-        width: 70px;
-        height: 70px;
+        width: 56px;
+        height: 56px;
     }
 
     .game-info {
@@ -355,8 +355,8 @@ body {
     }
     
     .opponent-logo {
-        width: 80px;
-        height: 80px;
+        width: 64px;
+        height: 64px;
     }
 }
 
@@ -367,8 +367,8 @@ body {
     }
     
     .opponent-logo {
-        width: 90px;
-        height: 90px;
+        width: 72px;
+        height: 72px;
     }
 }
 
@@ -404,8 +404,8 @@ body {
     }
     
     .opponent-logo {
-        width: 45px;
-        height: 45px;
+        width: 36px;
+        height: 36px;
     }
     
     .day-number {
@@ -485,8 +485,8 @@ body {
     }
     
     .opponent-logo {
-        width: 54px;
-        height: 54px;
+        width: 43px;
+        height: 43px;
         margin-top: -5px;
         margin-bottom: -8px;
     }
