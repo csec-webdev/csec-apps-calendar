@@ -59,6 +59,13 @@ export async function getChampionDataAccessToken(
 
   if (!response.ok) {
     const errorText = await response.text();
+    
+    // Check if it's a rate limit error
+    if (errorText.includes("rate limit") || errorText.includes("M2M token")) {
+      // Auth0's M2M rate limits typically reset after 24 hours
+      throw new Error(`Auth0 M2M rate limit exceeded. This typically resets after 24 hours. The new token caching system will prevent this in the future. Current time: ${new Date().toISOString()}`);
+    }
+    
     throw new Error(`Auth0 token request failed: ${response.statusText} - ${errorText}`);
   }
 
