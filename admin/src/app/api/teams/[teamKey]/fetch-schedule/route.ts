@@ -330,8 +330,9 @@ function processNHLSchedule(apiData: any): Record<string, any> {
 
   apiData.games.forEach((game: any) => {
     // Parse date (NHL API returns YYYY-MM-DD format)
+    // Create at noon to avoid timezone boundary issues
     const [year, month, day] = game.gameDate.split("-");
-    const gameDate = new Date(parseInt(year), parseInt(month) - 1, parseInt(day));
+    const gameDate = new Date(parseInt(year), parseInt(month) - 1, parseInt(day), 12, 0, 0);
     const dateKey = formatDateKey(gameDate);
 
     const isHome = game.homeTeam.abbrev === "CGY";
@@ -552,7 +553,8 @@ function parseWHLDate(dateStr: string): Date | null {
     // Sep-Dec uses seasonStartYear, Jan-Apr uses seasonStartYear + 1
     const year = month >= 8 ? seasonStartYear : seasonStartYear + 1;
     
-    return new Date(year, month, day);
+    // Create date at noon to avoid timezone boundary issues
+    return new Date(year, month, day, 12, 0, 0);
   } catch (error) {
     return null;
   }
