@@ -32,11 +32,23 @@ export function TeamsClient() {
   const [uploading, setUploading] = useState<string | null>(null);
   const [gameFilter, setGameFilter] = useState<"all" | "home" | "away">("all");
   const [showCSVModal, setShowCSVModal] = useState(false);
+  const [lastFetchTime, setLastFetchTime] = useState<number>(0);
+  const [fetchCooldown, setFetchCooldown] = useState<number>(0);
 
   useEffect(() => {
     loadTeamData();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [teamKey]);
+
+  // Cooldown timer
+  useEffect(() => {
+    if (fetchCooldown > 0) {
+      const timer = setTimeout(() => {
+        setFetchCooldown(fetchCooldown - 1);
+      }, 1000);
+      return () => clearTimeout(timer);
+    }
+  }, [fetchCooldown]);
 
   async function loadTeamData() {
     setLoading(true);
@@ -128,6 +140,12 @@ export function TeamsClient() {
   }
 
   async function fetchScheduleFromAPI() {
+    // Check cooldown
+    if (fetchCooldown > 0) {
+      showToast(`Please wait ${fetchCooldown} seconds before fetching again`, "error");
+      return;
+    }
+
     setSaving(true);
     try {
       const res = await fetch(`/api/teams/${teamKey}/fetch-schedule`, {
@@ -135,13 +153,26 @@ export function TeamsClient() {
       });
       if (!res.ok) {
         const error = await res.json();
-        throw new Error(error.error || "Failed to fetch schedule");
+        const errorMsg = error.error || "Failed to fetch schedule";
+        
+        // Check for rate limit errors
+        if (errorMsg.includes("rate limit") || errorMsg.includes("M2M token requests")) {
+          setFetchCooldown(180); // 3 minute cooldown for rate limits
+          throw new Error("API rate limit reached. Please wait 3 minutes before trying again.");
+        }
+        
+        throw new Error(errorMsg);
       }
       const data = await res.json();
       const seasonInfo = data.seasons && data.seasons.length > 0 
         ? ` from ${data.seasons.length} season(s): ${data.seasons.join(", ")}`
         : "";
       showToast(`Fetched ${data.gamesCount} games${seasonInfo}!`, "success");
+      
+      // Set cooldown to prevent rapid clicking (30 seconds)
+      setFetchCooldown(30);
+      setLastFetchTime(Date.now());
+      
       // Reload the team data to show the new schedule
       await loadTeamData();
     } catch (e: any) {
@@ -428,10 +459,14 @@ export function TeamsClient() {
           </button>
           <button
             onClick={fetchScheduleFromAPI}
-            disabled={saving}
+            disabled={saving || fetchCooldown > 0}
             className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 disabled:opacity-50 disabled:cursor-not-allowed font-medium transition-colors"
           >
-            {saving ? "Fetching..." : "Fetch Schedule from API"}
+            {saving 
+              ? "Fetching..." 
+              : fetchCooldown > 0 
+                ? `Wait ${fetchCooldown}s` 
+                : "Fetch Schedule from API"}
           </button>
           <button
             onClick={() => setShowCSVModal(true)}
