@@ -121,7 +121,17 @@ async function fetchTeamSchedule(teamKey: string) {
       }
 
       // Get OAuth2 token (uses S3-backed cache to minimize token requests)
-      const accessToken = await getChampionDataAccessToken(authDomain, audience, clientId, clientSecret);
+      let accessToken;
+      try {
+        accessToken = await getChampionDataAccessToken(authDomain, audience, clientId, clientSecret);
+      } catch (tokenError: any) {
+        // If rate limited, skip this fetch gracefully - will retry next hour
+        if (tokenError.message.includes('rate limit')) {
+          console.log(`[${teamKey}] ⏳ Auth0 rate limited - skipping this fetch (will retry next hour)`);
+          throw new Error('RATE_LIMITED: Skipping fetch - Auth0 rate limit active, will reset automatically');
+        }
+        throw tokenError;
+      }
 
       // Fetch schedule
       const scheduleUrl = `${apiBaseUrl}/v1/leagues/${leagueId}/levels/${levelId}/seasons/${seasonId}/schedule`;
@@ -155,8 +165,17 @@ async function fetchTeamSchedule(teamKey: string) {
     
   } catch (error: any) {
     const duration = Date.now() - startTime;
-    console.error(`[${teamKey}] ❌ Error:`, error.message);
-    return { teamKey, success: false, error: error.message, duration };
+    const isRateLimited = error.message.includes('RATE_LIMITED');
+    
+    if (isRateLimited) {
+      // Rate limit is temporary and expected - will resolve automatically
+      console.log(`[${teamKey}] ⏳ Skipped (rate limited) - will retry automatically`);
+      return { teamKey, success: false, error: error.message, duration, rateLimited: true };
+    } else {
+      // Real error that needs attention
+      console.error(`[${teamKey}] ❌ Error:`, error.message);
+      return { teamKey, success: false, error: error.message, duration, rateLimited: false };
+    }
   }
 }
 
@@ -524,15 +543,20 @@ export async function GET(req: Request) {
 
   const totalDuration = Date.now() - startTime;
   const successful = results.filter(r => r.success).length;
-  const failed = results.filter(r => !r.success).length;
+  const rateLimited = results.filter(r => !r.success && r.rateLimited).length;
+  const failed = results.filter(r => !r.success && !r.rateLimited).length;
 
-  console.log(`✅ Completed: ${successful} successful, ${failed} failed (${totalDuration}ms)`);
+  if (rateLimited > 0) {
+    console.log(`✅ Completed: ${successful} successful, ${rateLimited} rate-limited (will retry), ${failed} failed (${totalDuration}ms)`);
+  } else {
+    console.log(`✅ Completed: ${successful} successful, ${failed} failed (${totalDuration}ms)`);
+  }
 
   return NextResponse.json({
     success: true,
     timestamp: new Date().toISOString(),
     totalDuration,
-    summary: { successful, failed, total: results.length },
+    summary: { successful, rateLimited, failed, total: results.length },
     results,
   });
 }
