@@ -28,9 +28,11 @@ export function AdminLayout({ children, userEmail, userRole }: AdminLayoutProps)
         <div className="px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 bg-[#C8102E] rounded flex items-center justify-center">
-                <span className="text-white font-bold text-lg">C</span>
-              </div>
+              <img 
+                src="https://d37ygqmmhd03wh.cloudfront.net/assets/csec_primary.svg" 
+                alt="CSEC Logo" 
+                className="h-10 w-auto"
+              />
               <div>
                 <h1 className="text-lg font-bold text-gray-900">CSEC Calendar Admin</h1>
                 <p className="text-xs text-gray-500">Team Management Portal</p>

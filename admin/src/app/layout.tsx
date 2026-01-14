@@ -12,6 +12,9 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "CSEC Calendar Admin",
   description: "Admin dashboard for CSEC team calendars",
+  icons: {
+    icon: "https://d37ygqmmhd03wh.cloudfront.net/assets/csec_primary.svg",
+  },
 };
 
 export default function RootLayout({
