@@ -618,20 +618,34 @@ function processNLLSchedule(apiData: any, calgaryTeamId: string, calgaryTeamCode
       const isHome = isCalgaryHome;
       const opponentSquad = isHome ? awaySquad : homeSquad;
 
-      // Parse game date
+      // Parse game date - convert UTC to Mountain Time to get correct date
       let gameDate: Date;
+      let utcDate: Date;
+      
       if (match.date?.utcMatchStart) {
-        gameDate = new Date(match.date.utcMatchStart);
+        utcDate = new Date(match.date.utcMatchStart);
       } else if (match.date?.startDate && match.date?.startTime) {
-        gameDate = new Date(`${match.date.startDate}T${match.date.startTime}`);
+        utcDate = new Date(`${match.date.startDate}T${match.date.startTime}`);
       } else {
         return; // No valid date
       }
 
-      if (isNaN(gameDate.getTime())) {
+      if (isNaN(utcDate.getTime())) {
         return; // Invalid date
       }
 
+      // Convert UTC to Mountain Time to get the correct game date
+      // Mountain Time is UTC-7 (MST) or UTC-6 (MDT)
+      const mtOffset = -7; // MST (use -6 for MDT if needed)
+      const mtDate = new Date(utcDate.getTime() + mtOffset * 60 * 60 * 1000);
+      
+      // Extract date components from Mountain Time
+      const year = mtDate.getUTCFullYear();
+      const month = mtDate.getUTCMonth();
+      const day = mtDate.getUTCDate();
+      
+      // Create a date at noon MT to avoid timezone boundary issues
+      gameDate = new Date(year, month, day, 12, 0, 0);
       const dateKey = formatDateKey(gameDate);
 
       // Determine game state and scores
@@ -667,7 +681,7 @@ function processNLLSchedule(apiData: any, calgaryTeamId: string, calgaryTeamCode
         }
       } else {
         gameState = "FUT";
-        gameTime = formatTimeMT(gameDate);
+        gameTime = formatTimeMT(utcDate); // Use UTC date for time formatting
       }
 
       // Get opponent logo from CloudFront
