@@ -370,14 +370,18 @@ function processNLLSchedule(apiData: any, calgaryTeamId: string, calgaryTeamCode
     const isHome = isCalgaryHome;
     const opponentSquad = isHome ? awaySquad : homeSquad;
 
+    // Parse game date and time
     let gameDate: Date;
+    let utcGameTime: Date; // Keep original UTC timestamp for time display
+    
     if (match.date?.utcMatchStart) {
-      const utcDate = new Date(match.date.utcMatchStart);
+      utcGameTime = new Date(match.date.utcMatchStart);
+      
       // Convert UTC date to Mountain Time date for dateKey
       // Mountain Time is UTC-7 (MST) or UTC-6 (MDT)
       // We'll use a fixed offset for date calculation to align with game days
       const mtOffset = -7; // UTC-7 for Mountain Standard Time
-      const mtDate = new Date(utcDate.getTime() + mtOffset * 60 * 60 * 1000);
+      const mtDate = new Date(utcGameTime.getTime() + mtOffset * 60 * 60 * 1000);
       
       // Extract date components from Mountain Time
       const year = mtDate.getUTCFullYear();
@@ -389,6 +393,7 @@ function processNLLSchedule(apiData: any, calgaryTeamId: string, calgaryTeamCode
     } else if (match.date?.startDate && match.date?.startTime) {
       // Fallback for non-UTC dates, assume local Mountain Time
       gameDate = new Date(`${match.date.startDate}T${match.date.startTime}`);
+      utcGameTime = gameDate;
     } else {
       return;
     }
@@ -428,7 +433,7 @@ function processNLLSchedule(apiData: any, calgaryTeamId: string, calgaryTeamCode
       }
     } else {
       gameState = "FUT";
-      gameTime = formatTimeMT(gameDate);
+      gameTime = formatTimeMT(utcGameTime);
     }
 
     const cloudfrontDomain = process.env.CLOUDFRONT_DOMAIN || 'd37ygqmmhd03wh.cloudfront.net';
@@ -440,7 +445,7 @@ function processNLLSchedule(apiData: any, calgaryTeamId: string, calgaryTeamCode
 
     games[dateKey] = {
       id: gameId,
-      date: gameDate.toISOString(),
+      date: utcGameTime.toISOString(),
       isHome,
       opponent: {
         abbrev: opponentSquad.code || opponentSquad.id?.toString() || "OPP",
