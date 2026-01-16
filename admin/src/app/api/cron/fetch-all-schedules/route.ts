@@ -372,8 +372,22 @@ function processNLLSchedule(apiData: any, calgaryTeamId: string, calgaryTeamCode
 
     let gameDate: Date;
     if (match.date?.utcMatchStart) {
-      gameDate = new Date(match.date.utcMatchStart);
+      const utcDate = new Date(match.date.utcMatchStart);
+      // Convert UTC date to Mountain Time date for dateKey
+      // Mountain Time is UTC-7 (MST) or UTC-6 (MDT)
+      // We'll use a fixed offset for date calculation to align with game days
+      const mtOffset = -7; // UTC-7 for Mountain Standard Time
+      const mtDate = new Date(utcDate.getTime() + mtOffset * 60 * 60 * 1000);
+      
+      // Extract date components from Mountain Time
+      const year = mtDate.getUTCFullYear();
+      const month = mtDate.getUTCMonth();
+      const day = mtDate.getUTCDate();
+      
+      // Create a date at noon MT to avoid timezone boundary issues
+      gameDate = new Date(year, month, day, 12, 0, 0);
     } else if (match.date?.startDate && match.date?.startTime) {
+      // Fallback for non-UTC dates, assume local Mountain Time
       gameDate = new Date(`${match.date.startDate}T${match.date.startTime}`);
     } else {
       return;
